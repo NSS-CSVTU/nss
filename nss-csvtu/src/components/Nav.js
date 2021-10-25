@@ -11,7 +11,11 @@ function Nav() {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0">
-                <img className="h-8 w-8" src={logo} alt="Workflow" />
+                <img
+                  className="h-8 w-8"
+                  src="https://upload.wikimedia.org/wikipedia/commons/9/90/NSS-symbol.jpeg"
+                  alt="Workflow"
+                />
               </div>
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
