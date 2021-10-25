@@ -1,6 +1,6 @@
 import Nav from "./components/Nav";
-import Footer from "./components/footer";
-import Feed from "./components/Feed";
+import Footer from "./components/Footer";
+
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 //import pages
 import About from "./pages/About";
@@ -23,6 +23,8 @@ import Statelevel from "./pages/Statelevel";
 import Strengthofvolunteer from "./pages/Strengthofvolunteer";
 import Trainingcenter from "./pages/Trainingcenter";
 import Programofficer from "./pages/Programofficer";
+import Home from "./components/Home";
+import Announcement from "./components/Announcement";
 
 function App() {
   return (
@@ -32,6 +34,12 @@ function App() {
         <Router>
           <Nav />
           <Switch />
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route exact path="/announcement">
+            <Announcement />
+          </Route>
           <Route path="/about">
             <About />
           </Route>
@@ -92,7 +100,7 @@ function App() {
           <Route path="/programofficer">
             <Programofficer />
           </Route>
-          <Feed />
+          {/* <Feed /> */}
           <Footer />
           <Switch />
         </Router>

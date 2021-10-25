@@ -9,9 +9,9 @@ function Footer() {
     <>
       <div className="footer-top flex justify-between mx-auto bg-gray-400">
         <img className="w-1/5 px-2" src={unicef} />
-        <img className="w-1/5 px-2" src={unicef} />
-        <img className="w-1/5 px-2" src={unicef} />
-        <img className="w-1/5 px-2" src={unicef} />
+        <img className="w-1/7 px-2" src={ebsb} />
+        <img className="w-1/5 px-2" src={digitalIndia} />
+        <img className="w-1/5 px-2" src={swachbharat} />
         <img className="w-1/5 h-auto px-2" src={fitindia} />
       </div>
       <div className="footer-bottom flex bg-gray-500 py-5">

@@ -11,7 +11,7 @@ const Feed = () => {
           <h1 className="feed_heading mb-5 ">News Feed</h1>
           <Swiper
             spaceBetween={50}
-            slidesPerView={2}
+            slidesPerView={3}
             onSlideChange={() => console.log("slide change")}
             onSwiper={(swiper) => console.log(swiper)}
           >
