@@ -29,7 +29,7 @@ const Feed = () => {
                         CATEGORY
                       </h2>
                       <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-                        I Love U Xo Much Neku
+                      latest event
                       </h1>
                       <p class="leading-relaxed mb-3">
                         Photo booth fam kinfolk cold-pressed sriracha leggings
@@ -69,7 +69,7 @@ const Feed = () => {
                         CATEGORY
                       </h2>
                       <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-                        I Love U Xo Much Neku
+                    
                       </h1>
                       <p class="leading-relaxed mb-3">
                         Photo booth fam kinfolk cold-pressed sriracha leggings
@@ -109,7 +109,7 @@ const Feed = () => {
                         CATEGORY
                       </h2>
                       <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-                        I Love U Xo Much Neku
+                    
                       </h1>
                       <p class="leading-relaxed mb-3">
                         Photo booth fam kinfolk cold-pressed sriracha leggings
@@ -149,7 +149,7 @@ const Feed = () => {
                         CATEGORY
                       </h2>
                       <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-                        I Love U Xo Much Neku
+                    
                       </h1>
                       <p class="leading-relaxed mb-3">
                         Photo booth fam kinfolk cold-pressed sriracha leggings
@@ -189,7 +189,7 @@ const Feed = () => {
                         CATEGORY
                       </h2>
                       <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-                        I Love U Xo Much Neku
+                    
                       </h1>
                       <p class="leading-relaxed mb-3">
                         Photo booth fam kinfolk cold-pressed sriracha leggings
@@ -229,7 +229,7 @@ const Feed = () => {
                         CATEGORY
                       </h2>
                       <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-                        I Love U Xo Much Neku
+                    
                       </h1>
                       <p class="leading-relaxed mb-3">
                         Photo booth fam kinfolk cold-pressed sriracha leggings
