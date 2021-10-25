@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-head {
+    /* position: absolute; */
+    left: 0px;
+    top: 0px;
+    background: rgba(48, 57, 131, 0.9);
+    /* display: inline-block; */
+    /* background-color: lightblue; */
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+    /* border-radius: 10px; */
+    /* position: relative; */
+    /* z-index: -1;
+    background: inherit;
+    overflow: hidden;
+*/
+}
+
+img {
+    height: 97px;
+    width: 652px;
+    left: 5%;
+    top: 76px;
+    margin: 6px 25px;
+}
