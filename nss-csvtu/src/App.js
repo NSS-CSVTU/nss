@@ -92,6 +92,7 @@ function App() {
           <Route path="/programofficer">
             <Programofficer />
           </Route>
+          <Feed />
           <Footer />
           <Switch />
         </Router>

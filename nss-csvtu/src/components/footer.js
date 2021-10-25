@@ -6,22 +6,24 @@ import digitalIndia from "../images/digitalIndia.png";
 import swachbharat from "../images/swachbharat.png";
 function Footer() {
   return (
-    <div>
-      <div className="footer-top">
-        <img src={unicef} />
-        <img src={digitalIndia.png} />
-        <img src={swachbharat.png} />
-        <img src={ebsb.png} />
-        <img src={fitindia} />
+    <>
+      <div className="footer-top flex justify-between mx-auto bg-gray-400">
+        <img className="w-1/5 px-2" src={unicef} />
+        <img className="w-1/5 px-2" src={unicef} />{" "}
+        <img className="w-1/5 px-2" src={unicef} />{" "}
+        <img className="w-1/5 px-2" src={unicef} />
+        <img className="w-1/5 h-auto px-2" src={fitindia} />
       </div>
-      <div className="footer-bottom">
-        <p className="footer-content">
+      <div className="footer-bottom flex bg-gray-500 py-5">
+        <p className="footer-content px-2">
           &copy; NSS CSVTU 2021. All Rights Reserved.
         </p>
-        <p>Privay Policy</p>
-        <p>Terms of Service</p>
+        <div className="ml-auto flex footer-bottom-right mr-10">
+          <p className=" px-4">Privay Policy</p>
+          <p className=" px-4">Terms of Service</p>
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 
