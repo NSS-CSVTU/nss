@@ -1,12 +1,11 @@
 import React from "react";
-import logo from "../Images/nss-logo.png";
-import "./css/about.css";
-import Announcement from "../components/announcement";
+import logo from "../images/nss.png";
+// import "./css/about.css";
+// import Announcement from "../components/announcement";
 
 const About = () => {
   return (
     <div className=" ">
-      <Announcement />
       <div class="field-content">
         <p>
           <strong>National Service Scheme (NSS)</strong>

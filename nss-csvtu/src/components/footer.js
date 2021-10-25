@@ -1,5 +1,4 @@
 import React from "react";
-import "../css/footer.css";
 import unicef from "../images/unicef.png";
 import fitindia from "../images/fitIndia.png";
 import ebsb from "../images/EBSB.png";
