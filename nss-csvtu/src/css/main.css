@@ -18,7 +18,6 @@ body {
 @media (max-width: 640px) {
   .footer-bottom {
     font-size: 0.6rem;
-    padding: 0;
   }
   .footer-bottom-right {
     display: flex;

@@ -1,4 +1,4 @@
-import Carousel from "./Carousel";
+import Carousel from "./carousel";
 import React from "react";
 import Feed from "./Feed";
 
