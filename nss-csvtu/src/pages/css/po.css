@@ -1,0 +1,30 @@
+.GeneratedTable {
+    width: 100%;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: #1a1a1a;
+    border-style: solid;
+    color: #030303;
+    margin: 10px;
+}
+
+.GeneratedTable td,
+.GeneratedTable th {
+    border-width: 2px;
+    border-color: #1a1a1a;
+    border-style: solid;
+    /* padding: 5px; */
+}
+
+.GeneratedTable thead {
+    background-color: #7688bc;
+}
+
+.tb-title {
+    text-align: center;
+    font-weight: 700;
+    font-style: bold;
+    color: #1a1a1a;
+    margin: 10px;
+}

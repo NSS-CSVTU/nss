@@ -1,11 +1,11 @@
-import React from 'react'
-
+import React from "react";
+import adminflowchart from "../images/flwchrt admin.png";
 const Administrativestructure = () => {
-    return (
-        <div className='pages-height'>
-            administrative structure
-        </div>
-    )
-}
+  return (
+    <div className="pages-height">
+      <img src={adminflowchart} />
+    </div>
+  );
+};
 
-export default Administrativestructure
+export default Administrativestructure;
