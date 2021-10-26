@@ -3,15 +3,15 @@ import React from "react";
 function Announcement() {
   return (
     <>
-      <div className="">
-        <div className="">
-          <div className="">
+      <div className="relative sm:h-60 notice_parent">
+        <div className="sm:w-1/3 ml-auto sm:mr-10 font-bold p-4 notice_board">
+          <div className="border-b-2 py-4">
             <h2>
               <i className="fas fa-list-ul"></i>&nbsp;Notice Board
             </h2>
           </div>
           <div className="">
-            <ul id="Notice" className="cs-iconlist">
+            <ul id="Notice" className="cs-iconlist border-b-2 py-4">
               <marquee
                 direction="up"
                 height="270px"
@@ -20,22 +20,26 @@ function Announcement() {
                 onmouseover="this.stop(); "
                 onmouseout="this.start();"
               >
-                <li style={{ padding: "20px 0" }}>
+                <li className="my-4">
+                  <p className="date">
+                    <i className="far fa-calendar-alt"></i>
+                    <span className="border-b-4 ml-2">30-08-2021</span>
+                  </p>
                   <a
                     href="Admin/Files/Document/08302021032631_DBT Sponsered M.Sc. Programme Admission in GGV 2021-23 30.08.21.pdf"
                     className="anchor"
                   >
-                    &nbsp; Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit. Odit ab aspernatur ipsa magnam placeat beatae
-                    architecto quasi, esse dolorem eius alias, possimus
-                    recusandae quo? Quasi perferendis cum maiores voluptatibus
-                    in! &nbsp;
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Odit ab aspernatur ipsa magnam placeat beatae architecto
+                    quasi, esse dolorem eius alias, possimus recusandae quo?
+                    Quasi perferendis cum maiores voluptatibus in! &nbsp;
                   </a>
-                  <p className="date">
-                    <i className="far fa-calendar-alt"></i>&nbsp;30-08-2021
-                  </p>
                 </li>
-                <li style={{ padding: "20px 0" }}>
+                <li className="my-4">
+                  <p className="date">
+                    <i className="far fa-calendar-alt"></i>
+                    <span className="border-b-4 ml-2">30-08-2021</span>
+                  </p>
                   <a
                     href="Admin/Files/Document/08272021014622_Time  Table 238 dt 27.08.21.pdf"
                     className="anchor"
@@ -46,11 +50,12 @@ function Announcement() {
                     ut similique, aspernatur quas. Illo necessitatibus similique
                     maxime? &nbsp;
                   </a>
-                  <p className="date">
-                    <i className="far fa-calendar-alt"></i>&nbsp;27-08-2021
-                  </p>
                 </li>
-                <li style={{ padding: "20px 0" }}>
+                <li className="my-4">
+                  <p className="date">
+                    <i className="far fa-calendar-alt"></i>
+                    <span className="border-b-4 ml-2">30-08-2021</span>
+                  </p>
                   <a
                     href="Admin/Files/Document/08272021045905_Biotechnolgy time Table 27.08.21.pdf"
                     className="anchor"
@@ -60,11 +65,12 @@ function Announcement() {
                     tenetur, veniam quasi ipsam neque vitae nihil, in, fuga
                     natus accusantium id! Vitae modi beatae dolorem? &nbsp;
                   </a>
-                  <p className="date">
-                    <i className="far fa-calendar-alt"></i>&nbsp;27-08-2021
-                  </p>
                 </li>
-                <li style={{ padding: "20px 0" }}>
+                <li className="my-4">
+                  <p className="date">
+                    <i className="far fa-calendar-alt"></i>
+                    <span className="border-b-4 ml-2">30-08-2021</span>
+                  </p>
                   <a
                     href="Admin/Files/Document/08262021051746_Non teaching R& F 26.08.21.pdf"
                     className="anchor"
@@ -74,11 +80,12 @@ function Announcement() {
                     quia placeat distinctio, perspiciatis incidunt repudiandae
                     consectetur? Placeat nulla velit at quas neque? &nbsp;
                   </a>
-                  <p className="date">
-                    <i className="far fa-calendar-alt"></i>&nbsp;26-08-2021
-                  </p>
                 </li>
-                <li style={{ padding: "20px 0" }}>
+                <li className="my-4">
+                  <p className="date">
+                    <i className="far fa-calendar-alt"></i>
+                    <span className="border-b-4 ml-2">30-08-2021</span>
+                  </p>
                   <a
                     href="Admin/Files/Document/08252021025120_Task Force Committee_25.8.21.pdf"
                     className="anchor"
@@ -89,11 +96,12 @@ function Announcement() {
                     possimus dignissimos perspiciatis neque odio dolor fugit
                     ipsam vero? Repellat! &nbsp;
                   </a>
-                  <p className="date">
-                    <i className="far fa-calendar-alt"></i>&nbsp;25-08-2021
-                  </p>
                 </li>
-                <li style={{ padding: "20px 0" }}>
+                <li className="my-4">
+                  <p className="date">
+                    <i className="far fa-calendar-alt"></i>
+                    <span className="border-b-4 ml-2">30-08-2021</span>
+                  </p>
                   <a
                     href="Admin/Files/Document/Advt-Eng.pdf"
                     className="anchor"
@@ -111,11 +119,12 @@ function Announcement() {
                   >
                     For more details
                   </a>
-                  <p className="date">
-                    <i className="far fa-calendar-alt"></i>&nbsp;25-08-2021
-                  </p>
                 </li>
-                <li style={{ padding: "20px 0" }}>
+                <li className="my-4">
+                  <p className="date">
+                    <i className="far fa-calendar-alt"></i>
+                    <span className="border-b-4 ml-2">30-08-2021</span>
+                  </p>
                   <a
                     href="Admin/Files/Document/08272021053451_International conference brochure 2.0_27.8.21.pdf"
                     className="anchor"
@@ -133,11 +142,12 @@ function Announcement() {
                   >
                     Registration Form
                   </a>
-                  <p className="date">
-                    <i className="far fa-calendar-alt"></i>&nbsp;06-08-2021
-                  </p>
                 </li>
-                <li style={{ padding: "20px 0" }}>
+                <li className="my-4">
+                  <p className="date">
+                    <i className="far fa-calendar-alt"></i>
+                    <span className="border-b-4 ml-2">30-08-2021</span>
+                  </p>
                   <a
                     href="Admin/Files/Document/HousekeepingExten250521 12.05.21.pdf"
                     className="anchor"
@@ -147,11 +157,12 @@ function Announcement() {
                     quibusdam nobis vitae, ratione neque. Officiis a iusto, quae
                     consectetur excepturi natus perspiciatis corporis? &nbsp;
                   </a>
-                  <p className="date">
-                    <i className="far fa-calendar-alt"></i>&nbsp;
-                  </p>
                 </li>
-                <li style={{ padding: "20px 0" }}>
+                <li className="my-4">
+                  <p className="date">
+                    <i className="far fa-calendar-alt"></i>
+                    <span className="border-b-4 ml-2">30-08-2021</span>
+                  </p>
                   <a
                     href="Admin/Files/Document/Forestry project cancel 03.05.21.pdf"
                     className="anchor"
@@ -161,11 +172,12 @@ function Announcement() {
                     sequi deleniti quidem beatae sunt. Exercitationem quibusdam
                     suscipit tempora nisi nulla iste atque ad doloremque.&nbsp;
                   </a>
-                  <p className="date">
-                    <i className="far fa-calendar-alt"></i>&nbsp;
-                  </p>
                 </li>
-                <li style={{ padding: "20px 0" }}>
+                <li className="my-4">
+                  <p className="date">
+                    <i className="far fa-calendar-alt"></i>
+                    <span className="border-b-4 ml-2">30-08-2021</span>
+                  </p>
                   <a
                     href="Admin/Files/Document/TenderNo41RAmp_30.4.21.pdf"
                     className="anchor"
@@ -176,19 +188,18 @@ function Announcement() {
                     molestiae necessitatibus voluptatibus eveniet ratione eius
                     impedit eum fugiat!&nbsp;
                   </a>
-                  <p className="date">
-                    <i className="far fa-calendar-alt"></i>&nbsp;
-                  </p>
                 </li>
               </marquee>
             </ul>
-            <a
-              href="UnivNoticeBoard.aspx"
-              className="btn btn-danger"
-              style={{ marginleft: "15px" }}
-            >
-              <i className="fas fa-eye"></i> View All
-            </a>
+            <div className="text-center text-lg">
+              <a
+                href="UnivNoticeBoard.aspx"
+                className="btn btn-danger"
+                style={{ marginleft: "15px" }}
+              >
+                <i className="fas fa-eye"></i> View All
+              </a>
+            </div>
           </div>
         </div>
       </div>
