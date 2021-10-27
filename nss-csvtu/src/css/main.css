@@ -15,10 +15,29 @@ body {
   width: 100vw;
 }
 
+.notice_parent {
+  max-width: 100vw;
+}
+
+.notice_board {
+  background-color: rgba(1, 7, 82, 0.4);
+}
+
+@media (min-width: 640px) {
+  .notice_board {
+    transform: translateY(-50%);
+    position: absolute;
+    color: white;
+    right: 0;
+    z-index: 999;
+  }
+}
+
 @media (max-width: 640px) {
   .footer-bottom {
     font-size: 0.6rem;
   }
+
   .footer-bottom-right {
     display: flex;
     margin: 0 0 0 auto;
