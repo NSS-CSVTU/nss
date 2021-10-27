@@ -58,8 +58,6 @@ const Carousel = () => {
           clickable: true,
         }}
         slidesPerView={1}
-        onSlideChange={() => console.log("slide change")}
-        onSwiper={(swiper) => console.log(swiper)}
         style={{ height: isMobile ? "50vh" : "80vh" }}
       >
         {images.map((img, i) => (

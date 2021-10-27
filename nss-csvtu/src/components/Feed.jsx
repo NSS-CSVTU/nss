@@ -27,8 +27,6 @@ const Feed = () => {
               clickable: true,
             }}
             slidesPerView={isMobile ? 1 : isTablet ? 2 : 3}
-            onSlideChange={() => console.log("slide change")}
-            onSwiper={(swiper) => console.log(swiper)}
           >
             <div class="flex flex-wrap justify-center align-middle">
               <SwiperSlide>
