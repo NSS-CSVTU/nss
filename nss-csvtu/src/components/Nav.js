@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
-import logo from "../images/lOGO.png";
+import logo from "../images/nss.png";
+import csvtulogo from "../images/nss.png";
+
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,12 +11,12 @@ function Nav() {
       <nav className="bg-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
-            <div className="flex items-center">
-              <div className="flex-shrink-0">
+            <div className="flex items-center flex-row">
+              <div className="flex-shrink-0 flex-row">
                 <img
                   className="h-8 w-8"
-                  src="https://upload.wikimedia.org/wikipedia/commons/9/90/NSS-symbol.jpeg"
-                  alt="Workflow"
+                  src={logo}
+                  alt="nss logo"
                 />
               </div>
               <div className="hidden md:block">
@@ -134,21 +136,21 @@ function Nav() {
                   href="Programofficer"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Program Officers
+                  Awards
                 </a>
 
                 <a
                   href="#"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Calendar
+                  Events
                 </a>
 
                 <a
                   href="#"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Reports
+                  Contact Us
                 </a>
               </div>
             </div>

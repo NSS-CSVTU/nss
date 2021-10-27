@@ -25,6 +25,7 @@ import Trainingcenter from "./pages/Trainingcenter";
 import Programofficer from "./pages/Programofficer";
 import Home from "./components/Home";
 import Announcement from "./components/Announcement";
+import Team from "./components/Team";
 
 function App() {
   return (
@@ -99,6 +100,9 @@ function App() {
           </Route>
           <Route path="/programofficer">
             <Programofficer />
+          </Route>
+          <Route path="/team">
+            <Team />
           </Route>
           {/* <Feed /> */}
           <Footer />
