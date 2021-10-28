@@ -4,6 +4,7 @@ import { useMediaQuery } from "react-responsive";
 import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
 import workshop from "../images/one day workshop.JPG";
+import hanoda from "../images/hanoda.jpg";
 
 import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper";
 
@@ -36,7 +37,7 @@ SwiperCore.use([Autoplay, Pagination, Navigation]);
 
 const images = [
   workshop,
-  "https://images.unsplash.com/photo-1523438097201-512ae7d59c44?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80",
+  hanoda,
   "https://images.unsplash.com/photo-1513026705753-bc3fffca8bf4?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80",
 ];
 // images must be an array of urls , if using Next JS this could something like
