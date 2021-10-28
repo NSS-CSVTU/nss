@@ -1,10 +1,12 @@
 import React from "react";
+import Team from "./Team";
 
 function Announcement() {
   return (
     <>
-      <div className="relative sm:h-60 notice_parent">
-        <div className="sm:w-1/3 ml-auto sm:mr-10 font-bold p-4 notice_board">
+      <div className="relative notice_parent flex flex-wrap justify-center sm:flex">
+        <Team className="teams" />
+        <div className="sm:w-1/3 w-screen ml-auto font-bold p-4 notice_board">
           <div className="border-b-2 py-4">
             <h2>
               <i className="fas fa-list-ul"></i>&nbsp;Notice Board
