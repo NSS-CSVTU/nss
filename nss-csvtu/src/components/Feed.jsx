@@ -3,6 +3,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { useMediaQuery } from "react-responsive";
 import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
+import bloodDonate from "../images/files/Blood Donation.JPG";
+import SBA from "../images/files/Bharat Swachhta Abhiyan.jpg";
 
 import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper";
 
@@ -16,7 +18,7 @@ const Feed = () => {
     <>
       <section class="text-gray-600 body-font">
         <div class="container my-5 mx-auto">
-          <h1 className="feed_heading mb-5 px-5">News Feed</h1>
+          <h1 className="feed_heading mb-5 px-5">Latest Events</h1>
           <Swiper
             spaceBetween={50}
             autoplay={{
@@ -34,7 +36,7 @@ const Feed = () => {
                   <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                     <img
                       class="lg:h-48 md:h-36 w-full object-cover object-center"
-                      src="https://i.pinimg.com/originals/8e/51/30/8e51302d51089d0f234dc16314c4e5b6.jpg"
+                      src={bloodDonate}
                       alt="blog"
                     />
                     <div class="p-6">
@@ -42,7 +44,7 @@ const Feed = () => {
                         CATEGORY
                       </h2>
                       <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-                        latest event
+                        Blood Donation Camp
                       </h1>
                       <p class="leading-relaxed mb-3">
                         Photo booth fam kinfolk cold-pressed sriracha leggings
@@ -74,14 +76,16 @@ const Feed = () => {
                   <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                     <img
                       class="lg:h-48 md:h-36 w-full object-cover object-center"
-                      src="https://dummyimage.com/721x401"
+                      src={SBA}
                       alt="blog"
                     />
                     <div class="p-6">
                       <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
                         CATEGORY
                       </h2>
-                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3"></h1>
+                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                        Bharat Swachhta Abhiyan
+                      </h1>
                       <p class="leading-relaxed mb-3">
                         Photo booth fam kinfolk cold-pressed sriracha leggings
                         jianbing microdosing tousled waistcoat.

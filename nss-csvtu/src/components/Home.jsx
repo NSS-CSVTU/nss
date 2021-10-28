@@ -3,6 +3,7 @@ import React from "react";
 import Feed from "./Feed";
 import Announcement from "./Announcement";
 import Team from "./Team";
+import Testimonials from "./Testimonials";
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
       <Announcement />
       <Team />
       <Feed />
+      <Testimonials />
     </div>
   );
 }
