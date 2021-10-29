@@ -94,9 +94,9 @@ const Feed = () => {
                         IG National Award
                       </h1>
                       <p class="leading-relaxed mb-3">
-                        Our NSS Volunteers, Simardeep Singh Syal from SSGI Won
-                        Indra Gandhi National Award 2017 - 2018 and facilitated
-                        by International award at BRICS Summit
+                        NSS Volunteer, Simardeep Singh Syal from SSGI Won Indra
+                        Gandhi National Award 2017 - 2018 and facilitated by
+                        International award at BRICS Summit
                       </p>
                       <div class="flex items-center flex-wrap">
                         <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
@@ -136,9 +136,9 @@ const Feed = () => {
                         R. D. Parade 2019
                       </h1>
                       <p class="leading-relaxed mb-3">
-                        NSS Volunteers, Rakesh Kumar was selected for R.D.
-                        Parade 2019 at Red Fort Delhi in front of Our Prime
-                        Minister and President of India.
+                        NSS Volunteer, Rakesh Kumar was selected for R.D. Parade
+                        2019 at Red Fort Delhi in front of Our Prime Minister
+                        and President of India.
                       </p>
                       <div class="flex items-center flex-wrap ">
                         <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
