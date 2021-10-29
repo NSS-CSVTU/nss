@@ -4,7 +4,9 @@ import { useMediaQuery } from "react-responsive";
 import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
 import workshop from "../images/one day workshop.JPG";
-import hanoda from "../images/hanoda.jpg";
+import hanoda from "../images/upload/workshop/DSC_8379.JPG";
+import b1 from "../images/b1.jpg";
+import dsc from "../images/upload/workshop/DSC_1400.JPG"
 
 import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper";
 
@@ -38,7 +40,7 @@ SwiperCore.use([Autoplay, Pagination, Navigation]);
 const images = [
   workshop,
   hanoda,
-  "https://images.unsplash.com/photo-1513026705753-bc3fffca8bf4?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80",
+  dsc
 ];
 // images must be an array of urls , if using Next JS this could something like
 // const images = ['/img/img1.png', '/img/img2.png', '/img/img3.png']
@@ -64,7 +66,7 @@ const Carousel = () => {
         {images.map((img, i) => (
           <SwiperSlide style={{ height: "auto" }}>
             <img src={img} className="w-full h-full" />
-          </SwiperSlide>
+           </SwiperSlide>
         ))}
       </Swiper>
     </>

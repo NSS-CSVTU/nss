@@ -1,0 +1,16 @@
+#counterimg {
+    position: relative;
+    /* width: 1440px;*/
+    height: 267px;
+    left: 0px;
+    /* top: 1141px; */
+    background-image: url('../images/Rectangle\ 8.png');
+    opacity: 60%;
+    justify-content: center;
+}
+
+
+/* #counter {
+    border: 10px;
+    border-color: black;
+} */

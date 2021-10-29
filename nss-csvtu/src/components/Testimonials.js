@@ -3,7 +3,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { useMediaQuery } from "react-responsive";
 import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
-import RDG from "../images/Rectangle.23.jpg";
+import Rec21 from "../images/upload/awards/Simardeep Singh Syal National Award 2017-18.jpeg";
+
 
 import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper";
 
@@ -35,7 +36,7 @@ const Feed = () => {
                   <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                     <img
                       class="lg:h-48 md:h-36 w-full object-cover object-center"
-                      src={RDG}
+                      src={Rec21}
                       alt="blog"
                     />
                     <div class="p-6">

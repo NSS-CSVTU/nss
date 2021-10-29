@@ -8,7 +8,7 @@ import Administrativestructure from "./pages/Administrativestructure";
 import AimObjective from "./pages/AimObjective";
 import Contact from "./pages/Contact";
 import Districtlevel from "./pages/Districtlevel";
-import Download from "./pages/Download";
+import OfficialDocs from "./pages/OfficialDocs";
 import Faq from "./pages/Faq";
 import Institutions from "./pages/Institutions";
 import Latestnews from "./pages/Latestnews";
@@ -56,8 +56,8 @@ function App() {
           <Route path="/districtlevel">
             <Districtlevel />
           </Route>
-          <Route path="/download">
-            <Download />
+          <Route path="/OfficialDocs">
+            <OfficialDocs />
           </Route>
           <Route path="/faq">
             <Faq />
@@ -98,7 +98,7 @@ function App() {
           <Route path="/trainingcenter">
             <Trainingcenter />
           </Route>
-          <Route path="/programofficer">
+          <Route path="/nssunits">
             <Programofficer />
           </Route>
           <Route path="/team">
