@@ -1,9 +1,9 @@
 import React from "react";
-import ASK from "../images/4.png";
-import PC from "../images/3.png";
-import MKV from "../images/2.png";
-import SS from "../images/1.png";
-import KK from "../images/5.png";
+import ASK from "../images/abc/4.png";
+import PC from "../images/abc/3.png";
+import MKV from "../images/abc/2.png";
+import SS from "../images/abc/1.png";
+import KK from "../images/abc/5.png";
 import logo from "../images/nss.png";
 
 function Team() {

@@ -3,10 +3,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { useMediaQuery } from "react-responsive";
 import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
-import workshop from "../images/one day workshop.JPG";
-import hanoda from "../images/upload/workshop/DSC_8379.JPG";
+import workshop from "../images/1.png";
+import hanoda from "../images/2.png";
 import b1 from "../images/b1.jpg";
-import dsc from "../images/upload/workshop/DSC_1400.JPG"
+import dsc from "../images/3.png"
 
 import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper";
 

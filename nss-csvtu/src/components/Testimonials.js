@@ -3,8 +3,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { useMediaQuery } from "react-responsive";
 import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
+import PA from "../images/president.jpg";
 import Rec21 from "../images/upload/awards/Simardeep Singh Syal National Award 2017-18.jpeg";
-
+import RD18 from "../images/RDC19.JPG";
+import BCS from "../images/upload/awards/Aakansha Mishra.jpg";
+import RDC from "../images/RDC.jpg";
 
 import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper";
 
@@ -36,7 +39,7 @@ const Feed = () => {
                   <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                     <img
                       class="lg:h-48 md:h-36 w-full object-cover object-center"
-                      src={Rec21}
+                      src={PA}
                       alt="blog"
                     />
                     <div class="p-6">
@@ -44,11 +47,15 @@ const Feed = () => {
                         CATEGORY
                       </h2>
                       <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-                        latest event
+                        Presidential Award
                       </h1>
                       <p class="leading-relaxed mb-3">
-                        Photo booth fam kinfolk cold-pressed sriracha leggings
-                        jianbing microdosing tousled waistcoat.
+                        On 24th September, On the Occasion of National Service
+                        Scheme Day, Shri Shankaracharya Technical Campus NSS
+                        Unit And Program Officer Dr D S Raghuwanshi was
+                        facilitated by Our President of India, Shri Ram Nath
+                        Kovind National Awards: Best NSS Unit and Best Program
+                        Officer
                       </p>
                       <div class="flex items-center flex-wrap ">
                         <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
@@ -76,17 +83,20 @@ const Feed = () => {
                   <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                     <img
                       class="lg:h-48 md:h-36 w-full object-cover object-center"
-                      src="https://dummyimage.com/721x401"
+                      src={Rec21}
                       alt="blog"
                     />
                     <div class="p-6">
                       <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
                         CATEGORY
                       </h2>
-                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3"></h1>
+                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                        IG National Award
+                      </h1>
                       <p class="leading-relaxed mb-3">
-                        Photo booth fam kinfolk cold-pressed sriracha leggings
-                        jianbing microdosing tousled waistcoat.
+                        Our NSS Volunteers, Simardeep Singh Syal from SSGI Won
+                        Indra Gandhi National Award 2017 - 2018 and facilitated
+                        by International award at BRICS Summit
                       </p>
                       <div class="flex items-center flex-wrap">
                         <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
@@ -109,22 +119,26 @@ const Feed = () => {
                   </div>
                 </div>
               </SwiperSlide>
+
               <SwiperSlide>
                 <div class="p-0  w-11/12 mx-auto">
                   <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                     <img
                       class="lg:h-48 md:h-36 w-full object-cover object-center"
-                      src="https://dummyimage.com/722x402"
+                      src={RD18}
                       alt="blog"
                     />
                     <div class="p-6">
                       <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
                         CATEGORY
                       </h2>
-                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3"></h1>
+                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                        R. D. Parade 2019
+                      </h1>
                       <p class="leading-relaxed mb-3">
-                        Photo booth fam kinfolk cold-pressed sriracha leggings
-                        jianbing microdosing tousled waistcoat.
+                        NSS Volunteers, Rakesh Kumar was selected for R.D.
+                        Parade 2019 at Red Fort Delhi in front of Our Prime
+                        Minister and President of India.
                       </p>
                       <div class="flex items-center flex-wrap ">
                         <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
@@ -152,17 +166,20 @@ const Feed = () => {
                   <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                     <img
                       class="lg:h-48 md:h-36 w-full object-cover object-center"
-                      src="https://dummyimage.com/722x402"
+                      src={RDC}
                       alt="blog"
                     />
                     <div class="p-6">
                       <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
                         CATEGORY
                       </h2>
-                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3"></h1>
+                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                        R. D. Parade 2021
+                      </h1>
                       <p class="leading-relaxed mb-3">
-                        Photo booth fam kinfolk cold-pressed sriracha leggings
-                        jianbing microdosing tousled waistcoat.
+                        NSS Volunteers, Jitesh Dewangan from SSTC was selected
+                        for R.D. Parade 2021 on Republic Day at Red Fort Delhi
+                        in front of Our Prime Minister and President of India.
                       </p>
                       <div class="flex items-center flex-wrap ">
                         <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
@@ -190,55 +207,20 @@ const Feed = () => {
                   <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                     <img
                       class="lg:h-48 md:h-36 w-full object-cover object-center"
-                      src="https://dummyimage.com/722x402"
+                      src={BCS}
                       alt="blog"
                     />
                     <div class="p-6">
                       <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
                         CATEGORY
                       </h2>
-                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3"></h1>
+                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                        7th BCS
+                      </h1>
                       <p class="leading-relaxed mb-3">
-                        Photo booth fam kinfolk cold-pressed sriracha leggings
-                        jianbing microdosing tousled waistcoat.
-                      </p>
-                      <div class="flex items-center flex-wrap ">
-                        <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
-                          Learn More
-                          <svg
-                            class="w-4 h-4 ml-2"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            fill="none"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          >
-                            <path d="M5 12h14"></path>
-                            <path d="M12 5l7 7-7 7"></path>
-                          </svg>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div class="p-0">
-                  <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                    <img
-                      class="lg:h-48 md:h-36 w-full object-cover object-center"
-                      src="https://dummyimage.com/722x402"
-                      alt="blog"
-                    />
-                    <div class="p-6">
-                      <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
-                        CATEGORY
-                      </h2>
-                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3"></h1>
-                      <p class="leading-relaxed mb-3">
-                        Photo booth fam kinfolk cold-pressed sriracha leggings
-                        jianbing microdosing tousled waistcoat.
+                        Akansha Mishra, NSS Volunteer, was elected and Awarded
+                        as Public Speaker for 7th Bhartiya Chhatra Sansad held
+                        at MIT Pune.
                       </p>
                       <div class="flex items-center flex-wrap ">
                         <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
