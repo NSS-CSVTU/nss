@@ -1,16 +1,16 @@
 import React from "react";
 import logo from "../images/nss.png";
-// import "./css/about.css";
+import "./css/about.css";
 // import Announcement from "../components/announcement";
 
 const About = () => {
   return (
-    <div className="bg-opacity-75 bg-gradient-to-r from-white-800 via-blue-500 to-white-800">
+    <div className="bg-opacity-75  bg-gradient-to-r from-white-800 via-blue-500 to-white-800">
       <div class="field-content text-center">
-        <p className="text-center p-3">
+        <p className="text-center bg-red-200 p-3">
           <strong>National Service Scheme (NSS)</strong>
         </p>
-        <p className="text-center m-3">
+        <p className="text-center bg-gray-200 ">
           <strong>About National Service Scheme (NSS)</strong>
         </p>
         <p className="break-normal p-5 m-3">
@@ -59,6 +59,42 @@ const About = () => {
           last 3 consecutive years. Currently, there are 42 Adopted Villages by
           our units under CSVTU.
         </p>
+        {/* <p className="break-normal p-5 m-3">
+          {" "}
+          NSS (National Service Scheme) programme is organized by the students
+          of SSGI themselves, and both students and teachers through their
+          combined participation in community service, get involved in the tasks
+          of nation building. It is a voluntary service where students will
+          develop their personality through social service. NSS at SSGI is aimed
+          at providing each student with a significant context in which he/she
+          can reach a deeper understanding of working with unity for nation
+          building. What We Do?? By the spirit of selfless service, NSS
+          volunteers try to cater the society in best possible manner and hence
+          arrive at a set of values integral to the Indian philosophy of life.
+          NSS stipulates that the welfare of an individual is ultimately
+          dependent on the welfare of the society as a whole. This expresses the
+          essence of democratic living and upholds the need of selfless service
+          and appreciation of the other man's effort and also respect for fellow
+          human beings, environment and wildlife. Our camps are held in nearby
+          villages where attempts are made to improve educational conditions for
+          the school students. Activities like Educational drives, cleanliness
+          campaigns and environment awareness drives are actively taken up by
+          NSS. What We Believe?? The motto or watchword of the National Service
+          Scheme is 'NOT ME BUT YOU'. This reflects the essence of democratic
+          living and upholds the need for selfless service and appreciation of
+          the other person's point of view and also to show consideration for
+          fellow human beings. It underlines that the welfare of an individual
+          is ultimately dependent on the welfare of society on the whole.
+          Therefore, it should be the aim of the NSS to demonstrate this motto
+          in its day-today programme. What We Aim For?? • To understand the
+          community in which we work. • To understand ourselves in relation to
+          the community. • To identify the needs and problems in the community
+          and find solution in which we can be involved. • To develop among
+          ourselves a sense of better social and civic responsibility. • To
+          apply our education in finding practical solutions to individual and
+          community problems. • To develop the competence required for group
+          living and sharing responsibilities 
+        </p> */}
         <p className="text-center p-3">
           <strong>The NSS Badge Proud to Serve the Nation</strong>:
         </p>
@@ -124,7 +160,6 @@ const About = () => {
         <li>a person who understands human nature</li>
       </ul>
     </div>
-    
   );
 };
 

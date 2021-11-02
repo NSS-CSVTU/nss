@@ -5,8 +5,10 @@ import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
 import workshop from "../images/1.png";
 import hanoda from "../images/2.png";
-import b1 from "../images/b1.jpg";
-import dsc from "../images/3.png"
+import dsc from "../images/3.png";
+import workshop2 from "../images/one day workshop.JPG";
+import hanoda2 from "../images/upload/workshop/DSC_8311.JPG";
+import dsc2 from "../images/upload/workshop/DSC_1400.JPG";
 
 import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper";
 
@@ -37,11 +39,8 @@ SwiperCore.use([Autoplay, Pagination, Navigation]);
 
 // export default Carousel;
 
-const images = [
-  workshop,
-  hanoda,
-  dsc
-];
+const images = [workshop, hanoda, dsc];
+const images2 = [workshop2, hanoda2, dsc2];
 // images must be an array of urls , if using Next JS this could something like
 // const images = ['/img/img1.png', '/img/img2.png', '/img/img3.png']
 // images must be an array of urls , if using Next JS this could something like
@@ -51,24 +50,31 @@ const Carousel = () => {
   const isMobile = useMediaQuery({ query: "(max-width: 740px)" });
   return (
     <>
-      <Swiper
-        // spaceBetween={50}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
-        pagination={{
-          clickable: true,
-        }}
-        slidesPerView={1}
-        style={{ height: isMobile ? "50vh" : "80vh" }}
-      >
-        {images.map((img, i) => (
-          <SwiperSlide style={{ height: "auto" }}>
-            <img src={img} className="w-full h-full" />
-           </SwiperSlide>
-        ))}
-      </Swiper>
+      <div>
+        <Swiper
+          // spaceBetween={50}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          pagination={{
+            clickable: true,
+          }}
+          slidesPerView={1}
+          style={{
+            height: isMobile ? "60vw" : "80vh",
+          }}
+        >
+          {images.map((imgs, j) => (
+            <SwiperSlide style={{ height: "auto" }}>
+              <img
+                src={imgs}
+                className="w-full h-full"  
+              />
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
     </>
   );
 };

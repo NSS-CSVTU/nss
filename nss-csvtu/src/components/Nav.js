@@ -1,4 +1,5 @@
 import React, { useState, Fragment } from "react";
+import { Link } from "react-router-dom";
 import { Transition } from "@headlessui/react";
 import { Menu } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/solid";
@@ -22,12 +23,12 @@ function Nav() {
               </div>
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
-                  <a
-                    href="/"
+                  <Link
+                    to="/"
                     className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Home
-                  </a>
+                  </Link>
 
                   <Menu as="div" className="relative inline-block text-left">
                     <div>
@@ -53,8 +54,8 @@ function Nav() {
                         <div className="py-1">
                           <Menu.Item>
                             {({ active }) => (
-                              <a
-                                href="/about"
+                              <Link
+                                to="/about"
                                 className={classNames(
                                   active
                                     ? "bg-gray-100 text-gray-900"
@@ -63,14 +64,14 @@ function Nav() {
                                 )}
                               >
                                 About Us
-                              </a>
+                              </Link>
                             )}
                           </Menu.Item>
 
                           <Menu.Item>
                             {({ active }) => (
-                              <a
-                                href="/aimobjective"
+                              <Link
+                                to="/aimobjective"
                                 className={classNames(
                                   active
                                     ? "bg-gray-100 text-gray-900"
@@ -79,13 +80,13 @@ function Nav() {
                                 )}
                               >
                                 Aim and Objective
-                              </a>
+                              </Link>
                             )}
                           </Menu.Item>
                           <Menu.Item>
                             {({ active }) => (
-                              <a
-                                href="/admin"
+                              <Link
+                                to="/admin"
                                 className={classNames(
                                   active
                                     ? "bg-gray-100 text-gray-900"
@@ -94,13 +95,13 @@ function Nav() {
                                 )}
                               >
                                 Administrative Structure
-                              </a>
+                              </Link>
                             )}
                           </Menu.Item>
                           <Menu.Item>
                             {({ active }) => (
-                              <a
-                                href="/aimobjective"
+                              <Link
+                                to="/nssunits"
                                 className={classNames(
                                   active
                                     ? "bg-gray-100 text-gray-900"
@@ -109,13 +110,13 @@ function Nav() {
                                 )}
                               >
                                 CSVTU NSS Units
-                              </a>
+                              </Link>
                             )}
                           </Menu.Item>
                           <Menu.Item>
                             {({ active }) => (
-                              <a
-                                href="/programcoordinator"
+                              <Link
+                                to="/programcoordinator"
                                 className={classNames(
                                   active
                                     ? "bg-gray-100 text-gray-900"
@@ -124,13 +125,13 @@ function Nav() {
                                 )}
                               >
                                 Programme Co-ordinator
-                              </a>
+                              </Link>
                             )}
                           </Menu.Item>
                           <Menu.Item>
                             {({ active }) => (
-                              <a
-                                href="/faq"
+                              <Link
+                                to="/faq"
                                 className={classNames(
                                   active
                                     ? "bg-gray-100 text-gray-900"
@@ -139,7 +140,7 @@ function Nav() {
                                 )}
                               >
                                 FAQ
-                              </a>
+                              </Link>
                             )}
                           </Menu.Item>
                         </div>
@@ -147,19 +148,19 @@ function Nav() {
                     </Transition>
                   </Menu>
 
-                  <a
-                    href="/awards"
+                  <Link
+                    to="/awards"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Awards
-                  </a>
+                  </Link>
 
-                  <a
-                    href="/events"
+                  <Link
+                    to="/events"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Events
-                  </a>
+                  </Link>
                   <Menu as="div" className="relative inline-block text-left">
                     <div>
                       <Menu.Button className="inline-flex justify-center w-full rounded-md text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 text-sm font-medium">
@@ -185,7 +186,7 @@ function Nav() {
                           <Menu.Item>
                             {({ active }) => (
                               <a
-                                href="https://drive.google.com/file/d/1gabshvKW0-H85ZeQpqpnGfvVdn9JnUSz/view?usp=sharing"
+                                href="https://drive.google.com/file/d/1p160R-Vc3xGmcXZtCpCa8sRiBUvoK9R_/view?usp=sharing"
                                 className={classNames(
                                   active
                                     ? "bg-gray-100 text-gray-900"
@@ -199,8 +200,8 @@ function Nav() {
                           </Menu.Item>
                           <Menu.Item>
                             {({ active }) => (
-                              <a
-                                href="/aimobjective"
+                              <Link
+                                to="/minutesofmeeting"
                                 className={classNames(
                                   active
                                     ? "bg-gray-100 text-gray-900"
@@ -209,13 +210,13 @@ function Nav() {
                                 )}
                               >
                                 Minutes of Meeting
-                              </a>
+                              </Link>
                             )}
                           </Menu.Item>
                           <Menu.Item>
                             {({ active }) => (
-                              <a
-                                href="/"
+                              <Link
+                                to="/"
                                 className={classNames(
                                   active
                                     ? "bg-gray-100 text-gray-900"
@@ -224,7 +225,7 @@ function Nav() {
                                 )}
                               >
                                 Official Documents
-                              </a>
+                              </Link>
                             )}
                           </Menu.Item>
                           <Menu.Item>
@@ -247,12 +248,12 @@ function Nav() {
                     </Transition>
                   </Menu>
 
-                  <a
-                    href="/contact"
+                  <Link
+                    to="/contact"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Contact Us
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -315,12 +316,12 @@ function Nav() {
           {(ref) => (
             <div className="md:hidden" id="mobile-menu">
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <a
-                  href="/"
+                <Link
+                  to="/"
                   className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Home
-                </a>
+                </Link>
 
                 <Menu as="div" className="relative inline-block text-left">
                   <div>
@@ -346,8 +347,8 @@ function Nav() {
                       <div className="py-1">
                         <Menu.Item>
                           {({ active }) => (
-                            <a
-                              href="/about"
+                            <Link
+                              to="/about"
                               className={classNames(
                                 active
                                   ? "bg-gray-100 text-gray-900"
@@ -356,13 +357,13 @@ function Nav() {
                               )}
                             >
                               About Us
-                            </a>
+                            </Link>
                           )}
                         </Menu.Item>
                         <Menu.Item>
                           {({ active }) => (
-                            <a
-                              href="/aimobjective"
+                            <Link
+                              to="/aimobjective"
                               className={classNames(
                                 active
                                   ? "bg-gray-100 text-gray-900"
@@ -371,13 +372,13 @@ function Nav() {
                               )}
                             >
                               Aim and Objective
-                            </a>
+                            </Link>
                           )}
                         </Menu.Item>
                         <Menu.Item>
                           {({ active }) => (
-                            <a
-                              href="/admin"
+                            <Link
+                              to="/admin"
                               className={classNames(
                                 active
                                   ? "bg-gray-100 text-gray-900"
@@ -386,13 +387,13 @@ function Nav() {
                               )}
                             >
                               Administrative Structure
-                            </a>
+                            </Link>
                           )}
                         </Menu.Item>
                         <Menu.Item>
                           {({ active }) => (
-                            <a
-                              href="/aimobjective"
+                            <Link
+                              to="/nssunits"
                               className={classNames(
                                 active
                                   ? "bg-gray-100 text-gray-900"
@@ -401,13 +402,13 @@ function Nav() {
                               )}
                             >
                               CSVTU NSS Units
-                            </a>
+                            </Link>
                           )}
                         </Menu.Item>
                         <Menu.Item>
                           {({ active }) => (
-                            <a
-                              href="/programcoordinator"
+                            <Link
+                              to="/programcoordinator"
                               className={classNames(
                                 active
                                   ? "bg-gray-100 text-gray-900"
@@ -416,13 +417,13 @@ function Nav() {
                               )}
                             >
                               Programme Co-ordinator
-                            </a>
+                            </Link>
                           )}
                         </Menu.Item>
                         <Menu.Item>
                           {({ active }) => (
-                            <a
-                              href="/faq"
+                            <Link
+                              to="/faq"
                               className={classNames(
                                 active
                                   ? "bg-gray-100 text-gray-900"
@@ -431,7 +432,7 @@ function Nav() {
                               )}
                             >
                               FAQ
-                            </a>
+                            </Link>
                           )}
                         </Menu.Item>
                       </div>
@@ -439,19 +440,19 @@ function Nav() {
                   </Transition>
                 </Menu>
 
-                <a
-                  href="#"
+                <Link
+                  to="#"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Awards
-                </a>
+                </Link>
 
-                <a
-                  href="/events"
+                <Link
+                  to="/events"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Events
-                </a>
+                </Link>
                 <Menu as="div" className="relative inline-block text-left">
                   <div>
                     <Menu.Button className="inline-flex text-base w-full rounded-md text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 font-medium">
@@ -477,7 +478,7 @@ function Nav() {
                         <Menu.Item>
                           {({ active }) => (
                             <a
-                              href="https://drive.google.com/file/d/1gabshvKW0-H85ZeQpqpnGfvVdn9JnUSz/view?usp=sharing"
+                              href="https://drive.google.com/file/d/1p160R-Vc3xGmcXZtCpCa8sRiBUvoK9R_/view?usp=sharing"
                               className={classNames(
                                 active
                                   ? "bg-gray-100 text-gray-900"
@@ -491,8 +492,8 @@ function Nav() {
                         </Menu.Item>
                         <Menu.Item>
                           {({ active }) => (
-                            <a
-                              href="/aimobjective"
+                            <Link
+                              to="/aimobjective"
                               className={classNames(
                                 active
                                   ? "bg-gray-100 text-gray-900"
@@ -501,13 +502,13 @@ function Nav() {
                               )}
                             >
                               Minutes of Meeting
-                            </a>
+                            </Link>
                           )}
                         </Menu.Item>
                         <Menu.Item>
                           {({ active }) => (
-                            <a
-                              href="/"
+                            <Link
+                              to="/"
                               className={classNames(
                                 active
                                   ? "bg-gray-100 text-gray-900"
@@ -516,7 +517,7 @@ function Nav() {
                               )}
                             >
                               Official Documents
-                            </a>
+                            </Link>
                           )}
                         </Menu.Item>
                         <Menu.Item>
@@ -539,12 +540,12 @@ function Nav() {
                   </Transition>
                 </Menu>
 
-                <a
-                  href="/contact"
+                <Link
+                  to="/contact"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Contact Us
-                </a>
+                </Link>
               </div>
             </div>
           )}

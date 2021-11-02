@@ -3,7 +3,7 @@ import "./css/meeting.css";
 
 const Minutesofmeeting = () => {
   return (
-    <div className=" ">
+    <div className="h-screen">
       <div class="inner_right" id="skipCont">
         <div class="title-outer">
           <h1 class="page__title title" id="page-title">

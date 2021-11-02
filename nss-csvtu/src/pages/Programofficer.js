@@ -3,7 +3,7 @@ import "./css/po.css";
 
 const Programofficer = () => {
   return (
-    <div className="pages-height">
+    <div className="pages-height w-screen overflow-x-auto">
       <h1 className="tb-title">
         National Service Scheme Chhattisgarh Swami Vivekanand Technical
       </h1>
@@ -11,17 +11,13 @@ const Programofficer = () => {
         University, Bhilai TELE/E-MAIL ID of NSS Family
       </h1>
 
-      <table className="GeneratedTable .border-2 .border-black">
+      <table className="GeneratedTable table-auto  md:w-full lg:h-full  .border-2 .border-black">
         <tr>
           <th style={{ width: "50px" }}>S.No.</th>
-          <th style={{ width: "50px" }}>
-            Name and Address of the NSS units along with phone no.
-          </th>
+          <th style={{ width: "50px" }}>Name and Address of the NSS units</th>
           <th style={{ width: "50px" }}>Alloted Number </th>
-          <th style={{ width: "50px" }}>Name of Principal Mobile no.</th>
-          <th style={{ width: "50px" }}>
-            Name of Progr. Officer with mobile no.
-          </th>
+          <th style={{ width: "50px" }}>Name of Principal</th>
+          <th style={{ width: "50px" }}>Name of Progr. Officer</th>
           <th style={{ width: "50px" }}>Prog. Officer Trained Status</th>
           <th style={{ width: "50px" }}>Date of appointment/Joining as P.O</th>
           <th style={{ width: "50px" }}>Email ID of NSS Units</th>
@@ -615,7 +611,7 @@ const Programofficer = () => {
         </tr>
         <tr>
           <td style={{ width: "50px" }}>54</td>
-          <td style={{ width: "50px" }}></td>
+          <td style={{ width: "50px" }}>Govt. Polytechnic Sukma </td>
           <td style={{ width: "50px" }}>50</td>
           <td style={{ width: "50px" }}>Dr. S. K. Singh</td>
           <td style={{ width: "50px" }}>-</td>
@@ -646,7 +642,7 @@ const Programofficer = () => {
           <td style={{ width: "50px" }}>nssbhilaissgi@rediffmail.com</td>
         </tr>
         <tr>
-          <td style={{ width: "50px" }}></td>
+          <td style={{ width: "50px" }}>57</td>
           <td style={{ width: "50px" }}>Govt. Polytechnic Gariyaband</td>
           <td style={{ width: "50px" }}>100</td>
           <td style={{ width: "50px" }}>Mr. M. D. Sahu</td>
@@ -774,6 +770,17 @@ const Programofficer = () => {
           <td style={{ width: "50px" }}>nssvec2020@gmail.com</td>
         </tr>
       </table>
+      <div className="m-3 p-3 flex flex-row space-x-96 > * text-bold text-3xl">
+        <p>Total Unit : 67</p>
+        <p>Allotment – 5650</p>
+      </div>
+      <div className="m-3 p-3 flex flex-row space-x-14 > * text-bold text-xl">
+        <p>Engg. College - 36</p>
+        <p> Polytechnic College – 24</p>
+        <p>I.T.I.- 05</p>
+        <p>Pharmacy - 01</p>
+        <p> Dental - 01 </p>
+      </div>
     </div>
   );
 };

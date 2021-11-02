@@ -1,5 +1,6 @@
 import Nav from "./components/Nav";
 import Footer from "./components/footer";
+import { Link } from "react-router-dom";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 //import pages
@@ -17,7 +18,7 @@ import Nationaklevel from "./pages/Nationallevel";
 import Nssmanual from "./pages/Nssmanual";
 import Organizationchart from "./pages/Organisationchart";
 import Programcoordinator from "./pages/Programcoordinator";
-import Regular from "./pages/Regular";
+import Regular from "./pages/events";
 import Special from "./pages/Special";
 import Statelevel from "./pages/Statelevel";
 import Strengthofvolunteer from "./pages/Strengthofvolunteer";
@@ -71,7 +72,7 @@ function App() {
           <Route path="/minutesofmeeting">
             <Minutesofmeeting />
           </Route>
-          <Route path="/nationallevel">
+          <Route path="/awards">
             <Nationaklevel />
           </Route>
           <Route path="/nssmanual">

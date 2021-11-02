@@ -14,7 +14,7 @@ function Team() {
           <div
             class="bg-cover bg-center opacity-70 h-48 w-64"
             style={{
-              "background-image": "url('/images/nss.png')",
+              "background-image": `url(${logo})`,
             }}
           >
             <p className="text-xl p-5 relative font-bold text-center lg:text-xl">

@@ -1,10 +1,10 @@
-import React from 'react'
-
+import React from "react";
+import Testimonials from "../components/Testimonials";
 const Nationallevel = () => {
-    return (
-        <div className='pages-height'>
-            <p>
-        <strong>Major Activities:</strong>
+  return (
+    <div className="pages-height m-3">
+      <p>
+        <strong className="text-4xl">Major Activities And Awards:</strong>
       </p>
       <p>
         <strong>National Integration Camp (NIC):</strong>
@@ -154,9 +154,10 @@ const Nationallevel = () => {
             towards community work.
           </li>
         </ul>
-</div>
-        </div>
-    )
-}
+      </div>
+      <Testimonials />
+    </div>
+  );
+};
 
-export default Nationallevel
+export default Nationallevel;
