@@ -6,7 +6,7 @@ function Announcement() {
     <>
       <div className="relative notice_parent flex flex-wrap justify-center sm:flex">
         <Team className="teams" />
-        <div className="sm:w-1/3 w-screen ml-auto font-bold p-4 notice_board">
+        <div className="sm:w-1/3 w-screen ml-auto font-bold p-4 notice_board opacity-95">
           <div className="border-b-2 py-4">
             <h2>
               <i className="fas fa-list-ul"></i>&nbsp;Notice Board
@@ -21,17 +21,13 @@ function Announcement() {
                 scrollamount="2"
                 onmouseover="this.stop(); "
                 onmouseout="this.start();"
-              
               >
                 <li className="my-4">
                   <p className="date">
                     <i className="far fa-calendar-alt"></i>
                     <span className="border-b-4 ml-2">30-08-2021</span>
                   </p>
-                  <a
-                    href=""
-                    className="anchor"
-                  >
+                  <a href="" className="anchor">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Odit ab aspernatur ipsa magnam placeat beatae architecto
                     quasi, esse dolorem eius alias, possimus recusandae quo?
@@ -43,10 +39,7 @@ function Announcement() {
                     <i className="far fa-calendar-alt"></i>
                     <span className="border-b-4 ml-2">30-08-2021</span>
                   </p>
-                  <a
-                    href=""
-                    className="anchor"
-                  >
+                  <a href="" className="anchor">
                     &nbsp; Lorem ipsum dolor sit amet consectetur, adipisicing
                     elit. Accusantium nemo, dicta consequuntur iste fuga
                     consectetur natus dolorum facere repellendus sed neque sit
@@ -59,10 +52,7 @@ function Announcement() {
                     <i className="far fa-calendar-alt"></i>
                     <span className="border-b-4 ml-2">30-08-2021</span>
                   </p>
-                  <a
-                    href=""
-                    className="anchor"
-                  >
+                  <a href="" className="anchor">
                     &nbsp; Lorem ipsum dolor sit amet consectetur adipisicing
                     elit. Illum saepe dolor assumenda placeat voluptates
                     tenetur, veniam quasi ipsam neque vitae nihil, in, fuga
@@ -74,10 +64,7 @@ function Announcement() {
                     <i className="far fa-calendar-alt"></i>
                     <span className="border-b-4 ml-2">30-08-2021</span>
                   </p>
-                  <a
-                    href=""
-                    className="anchor"
-                  >
+                  <a href="" className="anchor">
                     &nbsp; Lorem ipsum dolor sit amet consectetur adipisicing
                     elit. Quaerat, unde quis ipsam cum omnis ullam quam quisquam
                     quia placeat distinctio, perspiciatis incidunt repudiandae
@@ -89,10 +76,7 @@ function Announcement() {
                     <i className="far fa-calendar-alt"></i>
                     <span className="border-b-4 ml-2">30-08-2021</span>
                   </p>
-                  <a
-                    href=""
-                    className="anchor"
-                  >
+                  <a href="" className="anchor">
                     &nbsp; Lorem ipsum dolor sit amet consectetur adipisicing
                     elit. Consequuntur eligendi distinctio laborum accusantium
                     optio maiores quisquam molestiae repellat, animi ducimus
@@ -105,21 +89,14 @@ function Announcement() {
                     <i className="far fa-calendar-alt"></i>
                     <span className="border-b-4 ml-2">30-08-2021</span>
                   </p>
-                  <a
-                    href=""
-                    className="anchor"
-                  >
+                  <a href="" className="anchor">
                     &nbsp; Lorem ipsum dolor sit amet consectetur, adipisicing
                     elit. Explicabo, odio porro? Sequi beatae velit adipisci
                     repellat, iusto laborum autem voluptatum itaque repudiandae
                     quasi nostrum ab ratione reprehenderit deserunt provident!
                     Vitae? &nbsp;
                   </a>
-                  <a
-                    href=""
-                    className="anchor"
-                    target="_blank"
-                  >
+                  <a href="" className="anchor" target="_blank">
                     For more details
                   </a>
                 </li>
@@ -128,21 +105,14 @@ function Announcement() {
                     <i className="far fa-calendar-alt"></i>
                     <span className="border-b-4 ml-2">30-08-2021</span>
                   </p>
-                  <a
-                    href=""
-                    className="anchor"
-                  >
+                  <a href="" className="anchor">
                     &nbsp; Lorem ipsum dolor sit amet consectetur adipisicing
                     elit. Possimus excepturi nam iusto vero eum sequi enim
                     perferendis ipsa, natus aperiam dolores reiciendis alias
                     dignissimos quia quo voluptatem inventore officia soluta!
                     &nbsp;
                   </a>
-                  <a
-                    href=""
-                    className="anchor"
-                    target="_blank"
-                  >
+                  <a href="" className="anchor" target="_blank">
                     Registration Form
                   </a>
                 </li>
@@ -151,10 +121,7 @@ function Announcement() {
                     <i className="far fa-calendar-alt"></i>
                     <span className="border-b-4 ml-2">30-08-2021</span>
                   </p>
-                  <a
-                    href=""
-                    className="anchor"
-                  >
+                  <a href="" className="anchor">
                     &nbsp; Lorem, ipsum dolor sit amet consectetur adipisicing
                     elit. Aut quae voluptates, nisi quis mollitia ipsam magni
                     quibusdam nobis vitae, ratione neque. Officiis a iusto, quae
@@ -166,10 +133,7 @@ function Announcement() {
                     <i className="far fa-calendar-alt"></i>
                     <span className="border-b-4 ml-2">30-08-2021</span>
                   </p>
-                  <a
-                    href=" "
-                    className="anchor"
-                  >
+                  <a href=" " className="anchor">
                     &nbsp; Lorem ipsum dolor, sit amet consectetur adipisicing
                     elit. Amet explicabo adipisci fugit quod, et asperiores
                     sequi deleniti quidem beatae sunt. Exercitationem quibusdam
@@ -181,10 +145,7 @@ function Announcement() {
                     <i className="far fa-calendar-alt"></i>
                     <span className="border-b-4 ml-2">30-08-2021</span>
                   </p>
-                  <a
-                    href=" "
-                    className="anchor"
-                  >
+                  <a href=" " className="anchor">
                     &nbsp; Lorem ipsum dolor sit amet consectetur adipisicing
                     elit. Architecto dolorem quibusdam beatae, nulla reiciendis
                     consequatur fugit praesentium eum nihil! Eligendi laudantium

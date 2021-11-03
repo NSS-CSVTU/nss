@@ -21,10 +21,10 @@ body {
 
 .notice_board {
     background-color: #1E255E;
-    opacity: 80%;
+    /* opacity: 80%; */
     background-blend-mode: "Pass through";
     color: white;
-    backdrop-filter: blur(5px);
+    /* backdrop-filter: blur(5px); */
     /* background-color: rgba(1, 7, 82, 0.4); */
     /* background: rgba(48, 57, 131, 0.7); */
 }
