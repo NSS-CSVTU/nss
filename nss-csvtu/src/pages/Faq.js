@@ -116,7 +116,7 @@ const Faq = () => {
                 high spirit.
               </div>
             </div>
-            '
+
             <div class="tab">
               <input type="checkbox" id="chck8" />
               <label class="tab-label" for="chck8">
