@@ -5,8 +5,10 @@
     left: 0px;
     /* top: 1141px; */
     background-image: url('../images/Rectangle\ 8.png');
-    opacity: 60%;
+    opacity: 70%;
     justify-content: center;
+    background-color: #303983;
+    /* color: white; */
 }
 
 

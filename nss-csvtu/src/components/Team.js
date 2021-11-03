@@ -10,17 +10,21 @@ function Team() {
   return (
     <div className="bg-white-400 w-full flex sm:w-2/3 justify-center">
       <div className="flex flex-wrap sm:grid grid-cols-1 w-full gap-4 p-5 justify-center md:grid-cols-3 lg:grid-cols-3">
-        <div className="p-6 align-center justify-center text-center text-4xl rounded">
+        <div className="p-6 bg-white  border-2 border-black flex align-center justify-center  text-center text-4xl rounded">
           <div
-            class="bg-cover bg-center opacity-70 h-48 w-64"
+            class="bg-cover bg-white text-black bg-center bg-blend-soft-light bg-opacity-50"
             style={{
               "background-image": `url(${logo})`,
+              backgroundSize: "80%",
+              backgroundSize: "contain",
+              backgroundRepeat: "no-repeat",
+              backgroundPosition: "center",
             }}
           >
             <p className="text-xl p-5 relative font-bold text-center lg:text-xl">
               “NOT ME BUT YOU”
             </p>
-            <p className="relative p-3 text-sm text-center lg:text-sm">
+            <p className="relative p-3 text-sm font-bold text-center lg:text-sm">
               The Motto of NSS, it reflects the essence of democratic living and
               upholds the need for self-less service.
             </p>

@@ -21,6 +21,7 @@ function Announcement() {
                 scrollamount="2"
                 onmouseover="this.stop(); "
                 onmouseout="this.start();"
+              
               >
                 <li className="my-4">
                   <p className="date">
@@ -28,7 +29,7 @@ function Announcement() {
                     <span className="border-b-4 ml-2">30-08-2021</span>
                   </p>
                   <a
-                    href="Admin/Files/Document/08302021032631_DBT Sponsered M.Sc. Programme Admission in GGV 2021-23 30.08.21.pdf"
+                    href=""
                     className="anchor"
                   >
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -43,7 +44,7 @@ function Announcement() {
                     <span className="border-b-4 ml-2">30-08-2021</span>
                   </p>
                   <a
-                    href="Admin/Files/Document/08272021014622_Time  Table 238 dt 27.08.21.pdf"
+                    href=""
                     className="anchor"
                   >
                     &nbsp; Lorem ipsum dolor sit amet consectetur, adipisicing
@@ -59,7 +60,7 @@ function Announcement() {
                     <span className="border-b-4 ml-2">30-08-2021</span>
                   </p>
                   <a
-                    href="Admin/Files/Document/08272021045905_Biotechnolgy time Table 27.08.21.pdf"
+                    href=""
                     className="anchor"
                   >
                     &nbsp; Lorem ipsum dolor sit amet consectetur adipisicing
@@ -74,7 +75,7 @@ function Announcement() {
                     <span className="border-b-4 ml-2">30-08-2021</span>
                   </p>
                   <a
-                    href="Admin/Files/Document/08262021051746_Non teaching R& F 26.08.21.pdf"
+                    href=""
                     className="anchor"
                   >
                     &nbsp; Lorem ipsum dolor sit amet consectetur adipisicing
@@ -89,7 +90,7 @@ function Announcement() {
                     <span className="border-b-4 ml-2">30-08-2021</span>
                   </p>
                   <a
-                    href="Admin/Files/Document/08252021025120_Task Force Committee_25.8.21.pdf"
+                    href=""
                     className="anchor"
                   >
                     &nbsp; Lorem ipsum dolor sit amet consectetur adipisicing
@@ -105,7 +106,7 @@ function Announcement() {
                     <span className="border-b-4 ml-2">30-08-2021</span>
                   </p>
                   <a
-                    href="Admin/Files/Document/Advt-Eng.pdf"
+                    href=""
                     className="anchor"
                   >
                     &nbsp; Lorem ipsum dolor sit amet consectetur, adipisicing
@@ -115,7 +116,7 @@ function Announcement() {
                     Vitae? &nbsp;
                   </a>
                   <a
-                    href="https://ggu.ac.in/Recruit.aspx"
+                    href=""
                     className="anchor"
                     target="_blank"
                   >
@@ -128,7 +129,7 @@ function Announcement() {
                     <span className="border-b-4 ml-2">30-08-2021</span>
                   </p>
                   <a
-                    href="Admin/Files/Document/08272021053451_International conference brochure 2.0_27.8.21.pdf"
+                    href=""
                     className="anchor"
                   >
                     &nbsp; Lorem ipsum dolor sit amet consectetur adipisicing
@@ -138,7 +139,7 @@ function Announcement() {
                     &nbsp;
                   </a>
                   <a
-                    href="https://ggu.ac.in/Admin/Files/Document/08052021052055_Registration%20Firm%2030.07.21.pdf"
+                    href=""
                     className="anchor"
                     target="_blank"
                   >
@@ -151,7 +152,7 @@ function Announcement() {
                     <span className="border-b-4 ml-2">30-08-2021</span>
                   </p>
                   <a
-                    href="Admin/Files/Document/HousekeepingExten250521 12.05.21.pdf"
+                    href=""
                     className="anchor"
                   >
                     &nbsp; Lorem, ipsum dolor sit amet consectetur adipisicing
@@ -166,7 +167,7 @@ function Announcement() {
                     <span className="border-b-4 ml-2">30-08-2021</span>
                   </p>
                   <a
-                    href="Admin/Files/Document/Forestry project cancel 03.05.21.pdf"
+                    href=" "
                     className="anchor"
                   >
                     &nbsp; Lorem ipsum dolor, sit amet consectetur adipisicing
@@ -181,7 +182,7 @@ function Announcement() {
                     <span className="border-b-4 ml-2">30-08-2021</span>
                   </p>
                   <a
-                    href="Admin/Files/Document/TenderNo41RAmp_30.4.21.pdf"
+                    href=" "
                     className="anchor"
                   >
                     &nbsp; Lorem ipsum dolor sit amet consectetur adipisicing
