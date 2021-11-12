@@ -62,14 +62,14 @@ const Carousel = () => {
           }}
           slidesPerView={1}
           style={{
-            height: isMobile ? "60vw" : "80vh",
+            height: "auto",
           }}
         >
           {images.map((imgs, j) => (
-            <SwiperSlide style={{ height: "auto" }}>
+            <SwiperSlide >
               <img
                 src={imgs}
-                className="w-full h-full"  
+                className="w-full"
               />
             </SwiperSlide>
           ))}

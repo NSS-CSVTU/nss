@@ -155,16 +155,11 @@ function Nav() {
                     Awards
                   </Link>
 
-                  <Link
-                    to="/events"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >
-                    Events
-                  </Link>
+
                   <Menu as="div" className="relative inline-block text-left">
                     <div>
                       <Menu.Button className="inline-flex justify-center w-full rounded-md text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 text-sm font-medium">
-                        Documents
+                        Events
                         <ChevronDownIcon
                           className="-mr-1 ml-2 h-5 w-5"
                           aria-hidden="true"
@@ -194,7 +189,7 @@ function Nav() {
                                   "block px-4 py-2 text-sm"
                                 )}
                               >
-                                Monthly Report
+                                Regular Events
                               </a>
                             )}
                           </Menu.Item>
@@ -209,40 +204,11 @@ function Nav() {
                                   "block px-4 py-2 text-sm"
                                 )}
                               >
-                                Minutes of Meeting
+                                Special Events
                               </Link>
                             )}
                           </Menu.Item>
-                          <Menu.Item>
-                            {({ active }) => (
-                              <Link
-                                to="/"
-                                className={classNames(
-                                  active
-                                    ? "bg-gray-100 text-gray-900"
-                                    : "text-gray-700",
-                                  "block px-4 py-2 text-sm"
-                                )}
-                              >
-                                Official Documents
-                              </Link>
-                            )}
-                          </Menu.Item>
-                          <Menu.Item>
-                            {({ active }) => (
-                              <a
-                                href="https://nss.gov.in/sites/default/files/manualNss2006.pdf"
-                                className={classNames(
-                                  active
-                                    ? "bg-gray-100 text-gray-900"
-                                    : "text-gray-700",
-                                  "block px-4 py-2 text-sm"
-                                )}
-                              >
-                                NSS Manual
-                              </a>
-                            )}
-                          </Menu.Item>
+
                         </div>
                       </Menu.Items>
                     </Transition>

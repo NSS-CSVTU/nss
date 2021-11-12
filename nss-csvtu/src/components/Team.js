@@ -15,7 +15,6 @@ function Team() {
             class="bg-cover bg-white text-black bg-center bg-blend-soft-light bg-opacity-50"
             style={{
               "background-image": `url(${logo})`,
-              backgroundSize: "80%",
               backgroundSize: "contain",
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
