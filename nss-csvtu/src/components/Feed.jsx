@@ -10,6 +10,7 @@ import police from "../images/police.JPG";
 import BloodBITD from "../images/BlooddonationBITD.JPG";
 import BITR from "../images/upload/blood donation/BIT Raipur 1 (1).JPG";
 import preRD from "../images/preRD.JPG";
+import ChintanShivir from "../images/ChintanShivir.jpg"
 
 import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper";
 
@@ -40,6 +41,137 @@ const Feed = () => {
                 <div class="p-0">
                   <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                     <img
+                        class="lg:h-48 md:h-36 w-full object-cover object-center"
+                        src={preRD}
+                        alt="blog"
+                    />
+                    <div class="p-6">
+                      <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                        CATEGORY
+                      </h2>
+                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                        Pre-RDC Selection
+                      </h1>
+                      <p class="leading-relaxed mb-3">
+                        Pre-RDC (Republic Day Camp) selection will be held at
+                        NSS Unit of BITD today in the watchful eyes of
+                        honourable guests- Shri A.S Kabir, Regional Director NSS
+                        Dr Samrendra Singh, State NSS officer Ms. Uma P.
+                        BalaRaju, NCC Officer, BIT Durg Mr Chandrakant Sahu, NCC
+                        Officer, ITI Bhilai Dr. D.S. Raghuvanshi, CSVTU NSS
+                        Coordinator Mr. Ashutosh Jain, Para Medical Staff SSSCN
+                        Junwani, Bhilai
+                      </p>
+                      <div class="flex items-center flex-wrap ">
+                        <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                          Learn More
+                          <svg
+                              class="w-4 h-4 ml-2"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              fill="none"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                          >
+                            <path d="M5 12h14"></path>
+                            <path d="M12 5l7 7-7 7"></path>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div class="p-0">
+                  <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                    <img
+                        class="lg:h-48 md:h-36 w-full object-cover object-center"
+                        src={preRD}
+                        alt="blog"
+                    />
+                    <div class="p-6">
+                      <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                        CATEGORY
+                      </h2>
+                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                        Pre-RDC Selection
+                      </h1>
+                      <p class="leading-relaxed mb-3">
+                        Pre-RDC (Republic Day Camp) selection will be held at
+                        NSS Unit of BITD today in the watchful eyes of
+                        honourable guests- Shri A.S Kabir, Regional Director NSS
+                        Dr Samrendra Singh, State NSS officer Ms. Uma P.
+                        BalaRaju, NCC Officer, BIT Durg Mr Chandrakant Sahu, NCC
+                        Officer, ITI Bhilai Dr. D.S. Raghuvanshi, CSVTU NSS
+                        Coordinator Mr. Ashutosh Jain, Para Medical Staff SSSCN
+                        Junwani, Bhilai
+                      </p>
+                      <div class="flex items-center flex-wrap ">
+                        <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                          Learn More
+                          <svg
+                              class="w-4 h-4 ml-2"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              fill="none"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                          >
+                            <path d="M5 12h14"></path>
+                            <path d="M12 5l7 7-7 7"></path>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div class="p-0 w-11/12 mx-auto">
+                  <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                    <img
+                        class="lg:h-48 md:h-36 w-full object-cover object-center"
+                        src={ChintanShivir}
+                        alt="blog"
+                    />
+                    <div class="p-6">
+                      <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                        CATEGORY
+                      </h2>
+                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                        NSS State Level - Chintan Shivir
+                      </h1>
+                      <p class="leading-relaxed mb-3">
+                        A three-day meditation camp was organised by the National Service Scheme Cell of Chhattisgarh State at Prayog Ashram Tilda, District Raipur Ch.G. from 8 to 10 November 2021 Program coordinators, district organizers and program officers and volunteers of various universities of the state participated in this camp.
+                      </p>
+                      <div class="flex items-center flex-wrap ">
+                        <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                          Learn More
+                          <svg
+                              class="w-4 h-4 ml-2"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              fill="none"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                          >
+                            <path d="M5 12h14"></path>
+                            <path d="M12 5l7 7-7 7"></path>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div class="p-0">
+                  <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                    <img
                       class="lg:h-48 md:h-36 w-full object-cover object-center"
                       src={preRD}
                       alt="blog"
@@ -49,7 +181,7 @@ const Feed = () => {
                         CATEGORY
                       </h2>
                       <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-                        Pre-RDC
+                        Pre-RDC Selection
                       </h1>
                       <p class="leading-relaxed mb-3">
                         Pre-RDC (Republic Day Camp) selection will be held at

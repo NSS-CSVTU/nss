@@ -22,7 +22,6 @@ import Regular from "./pages/events";
 import Special from "./pages/Special";
 import Statelevel from "./pages/Statelevel";
 import Strengthofvolunteer from "./pages/Strengthofvolunteer";
-import Trainingcenter from "./pages/Trainingcenter";
 import Programofficer from "./pages/Programofficer";
 import Home from "./components/Home";
 import Announcement from "./components/Announcement";
@@ -84,10 +83,10 @@ function App() {
           <Route path="/programcoordinator">
             <Programcoordinator />
           </Route>
-          <Route path="/regular">
+          <Route path="/regularevent">
             <Regular />
           </Route>
-          <Route path="/special">
+          <Route path="/specialevent">
             <Special />
           </Route>
           <Route path="/statelevel">
@@ -96,8 +95,8 @@ function App() {
           <Route path="/strengthofvolunteer">
             <Strengthofvolunteer />
           </Route>
-          <Route path="/trainingcenter">
-            <Trainingcenter />
+          <Route path="/officialdocs">
+            <OfficialDocs />
           </Route>
           <Route path="/nssunits">
             <Programofficer />

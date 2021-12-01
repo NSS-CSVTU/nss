@@ -7,7 +7,7 @@ function Counter() {
     <div id="counter" className="p-5">
       <div
         id="counterimg"
-        className="border bg-blend-soft-light bg-opacity-50 opacity-80 sm:m-5 w-95 h-full text-xs sm:w-full sm:h-full border-black border-10 flex flex-row justify-center text-center"
+        className="border bg-blend-soft-light bg-opacity-50 opacity-80  sm:w-75 h-full text-xs sm:h-full border-black border-10 flex flex-row justify-center text-center"
       >
         <ul className="flex flex-col sm:flex-row sm:bg-white text-2xl m-1 sm:p-5 sm:m-10 align-center justify-center text-center text-opacity-100">
           <li className="sm:m-5 text-xl border-2 border-gray-400 font-bold sm:border-none bg-white text-black text-opacity-100">

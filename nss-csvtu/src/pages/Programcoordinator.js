@@ -18,11 +18,11 @@ const Programcoordinator = () => {
       <p className="text-center text-xl font-bold md:text-4xl m-3 underline">
         PROGRAMME CO-ORDINATOR
       </p>
-      <div className="flex flex-col md:flex-row justify-center">
-        <div className="flex-col justify-center relative w-7/12">
+      <div className="flex flex-col content-around lg:flex-row justify-center">
+        <div className="flex-col flex items-center justify-center space-around relative lg:w-full lg:h-full">
           <img
             src={PC}
-            className="h-60 mt-16 relative justify-center border-black border-2"
+            className="h-60 mt-16 object-contain relative justify-center border-black border-2"
           />
           <p className="m-2 text-red-800 text-sm text-center font-bold">
             DR. D. S. RAGHUWANSHI
@@ -31,7 +31,7 @@ const Programcoordinator = () => {
             Programme Co-ordinator , CSVTU
           </p>
         </div>
-        <div className="text-left relative m-16 text-2xl">
+        <div className="text-center lg:text-left relative mt-16 mr-16 flex flex-wrap content-evenly lg:m-5 text-2xl">
           <p className="">
             I am exceedingly gratified to learn that the NSS CSVTU volunteers
             are highlighting its achievements and services for the betterment of
@@ -53,7 +53,7 @@ const Programcoordinator = () => {
       </div>
       <section class="text-gray-600 body-font">
         <div class="container my-5 mx-auto">
-          <h1 className="feed_heading mb-5 px-5">AWARDS</h1>
+          <h1 className="feed_heading mb-5 px-5">ACHIEVEMENTS</h1>
           <Swiper
             spaceBetween={50}
             autoplay={{

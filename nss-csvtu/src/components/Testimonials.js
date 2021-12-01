@@ -38,7 +38,7 @@ const Feed = () => {
                 <div class="p-0 w-11/12 mx-auto">
                   <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                     <img
-                      class="lg:h-48 md:h-36 w-full object-cover object-center"
+                      class="lg:h-48 bg-black md:h-36 w-full bg-black object-contain"
                       src={PA}
                       alt="blog"
                     />
@@ -82,7 +82,7 @@ const Feed = () => {
                 <div class="p-0 w-11/12 mx-auto">
                   <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                     <img
-                      class="lg:h-48 md:h-36 w-full object-cover object-center"
+                      class="lg:h-48 bg-black md:h-36 w-full object-contain"
                       src={Rec21}
                       alt="blog"
                     />
@@ -124,7 +124,7 @@ const Feed = () => {
                 <div class="p-0  w-11/12 mx-auto">
                   <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                     <img
-                      class="lg:h-48 md:h-36 w-full object-cover object-center"
+                      class="lg:h-48 bg-black md:h-36 w-full object-contain"
                       src={RD18}
                       alt="blog"
                     />
@@ -165,7 +165,7 @@ const Feed = () => {
                 <div class="p-0  w-11/12 mx-auto">
                   <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                     <img
-                      class="lg:h-48 md:h-36 w-full object-cover object-center"
+                      class="lg:h-48 bg-black md:h-36 w-full object-contain"
                       src={RDC}
                       alt="blog"
                     />
@@ -206,7 +206,7 @@ const Feed = () => {
                 <div class="p-0  w-11/12 mx-auto">
                   <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                     <img
-                      class="lg:h-48 md:h-36 w-full object-cover object-center"
+                      class="lg:h-48 bg-black md:h-36 w-full object-contain"
                       src={BCS}
                       alt="blog"
                     />

@@ -1,11 +1,7 @@
 $midnight: #2c3e50;
 $clouds: #ecf0f1;
 // General
-body {
-    color: $midnight;
-    background: $clouds;
-    // padding: 0 1em 1em;
-}
+
 
 h1 {
     margin: 0;
@@ -18,7 +14,7 @@ h2 {
     font-weight: normal;
 }
 
-input {
+.faqinput {
     position: absolute;
     opacity: 0;
     z-index: -1;

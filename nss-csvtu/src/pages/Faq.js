@@ -10,7 +10,7 @@ const Faq = () => {
         <div class="col">
           <div class="tabs">
             <div class="tab">
-              <input type="checkbox" id="chck1" />
+              <input className="faqinput" type="checkbox" id="chck1" />
               <label class="tab-label" for="chck1">
                 What is the National Service Scheme?
               </label>
@@ -26,7 +26,7 @@ const Faq = () => {
               </div>
             </div>
             <div class="tab">
-              <input type="checkbox" id="chck2" />
+              <input className="faqinput" type="checkbox" id="chck2" />
               <label class="tab-label" for="chck2">
                 {" "}
                 When was the National Service Scheme launched?
@@ -39,7 +39,7 @@ const Faq = () => {
               </div>
             </div>
             <div class="tab">
-              <input type="checkbox" id="chck3" />
+              <input className="faqinput" type="checkbox" id="chck3" />
               <label class="tab-label" for="chck3">
                 {" "}
                 What is the Motto of NSS?
@@ -51,7 +51,7 @@ const Faq = () => {
               </div>
             </div>
             <div class="tab">
-              <input type="checkbox" id="chck4" />
+              <input className="faqinput" type="checkbox" id="chck4" />
               <label class="tab-label" for="chck4">
                 {" "}
                 What are the aims & objectives of NSS?
@@ -80,7 +80,7 @@ const Faq = () => {
               </div>
             </div>
             <div class="tab">
-              <input type="checkbox" id="chck5" />
+              <input className="faqinput" type="checkbox" id="chck5" />
               <label class="tab-label" for="chck5">
                 {" "}
                 What is the overall objective of NSS?
@@ -91,7 +91,7 @@ const Faq = () => {
               </div>
             </div>
             <div class="tab">
-              <input type="checkbox" id="chck6" />
+              <input className="faqinput" type="checkbox" id="chck6" />
               <label class="tab-label" for="chck6">
                 {" "}
                 What does the colour Navy blue depict in NSS badge?
@@ -104,7 +104,7 @@ const Faq = () => {
               </div>
             </div>
             <div class="tab">
-              <input type="checkbox" id="chck7" />
+              <input className="faqinput" type="checkbox" id="chck7" />
               <label class="tab-label" for="chck7">
                 {" "}
                 What colour red depict in NSS badge?
@@ -118,7 +118,7 @@ const Faq = () => {
             </div>
 
             <div class="tab">
-              <input type="checkbox" id="chck8" />
+              <input className="faqinput" type="checkbox" id="chck8" />
               <label class="tab-label" for="chck8">
                 {" "}
                 What are the obligations of NSS Volunteers?
@@ -131,7 +131,7 @@ const Faq = () => {
               </div>
             </div>
             <div class="tab">
-              <input type="checkbox" id="chck9" />
+              <input className="faqinput" type="checkbox" id="chck9" />
               <label class="tab-label" for="chck9">
                 {" "}
                 Where is the NSS headquarter located?
@@ -142,7 +142,7 @@ const Faq = () => {
               </div>
             </div>
             <div class="tab">
-              <input type="checkbox" id="chck10" />
+              <input className="faqinput" type="checkbox" id="chck10" />
               <label class="tab-label" for="chck10">
                 {" "}
                 What is the Goal of NSS?
@@ -154,7 +154,7 @@ const Faq = () => {
               </div>
             </div>
             <div class="tab">
-              <input type="checkbox" id="chck11" />
+              <input className="faqinput" type="checkbox" id="chck11" />
               <label class="tab-label" for="chck11">
                 {" "}
                 What is the NSS symbol?
@@ -166,7 +166,7 @@ const Faq = () => {
               </div>
             </div>
             <div class="tab">
-              <input type="checkbox" id="chck12" />
+              <input className="faqinput" type="checkbox" id="chck12" />
               <label class="tab-label" for="chck12">
                 {" "}
                 What does the giant wheel depicts in NSS symbol?
@@ -179,7 +179,7 @@ const Faq = () => {
               </div>
             </div>
             <div class="tab">
-              <input type="checkbox" id="chck13" />
+              <input className="faqinput" type="checkbox" id="chck13" />
               <label class="tab-label" for="chck13">
                 {" "}
                 When is the NSS day observed?
@@ -190,7 +190,7 @@ const Faq = () => {
               </div>
             </div>
             <div class="tab">
-              <input type="checkbox" id="chck14" />
+              <input className="faqinput" type="checkbox" id="chck14" />
               <label class="tab-label" for="chck14">
                 {" "}
                 What is the pride of NSS Volunteers?
@@ -202,7 +202,7 @@ const Faq = () => {
               </div>
             </div>
             <div class="tab">
-              <input type="checkbox" id="chck15" />
+              <input className="faqinput" type="checkbox" id="chck15" />
               <label class="tab-label" for="chck15">
                 {" "}
                 What are the principal elements of NSS?
@@ -214,7 +214,7 @@ const Faq = () => {
               </div>
             </div>
             <div class="tab">
-              <input type="checkbox" id="chck16" />
+              <input className="faqinput" type="checkbox" id="chck16" />
               <label class="tab-label" for="chck16">
                 {" "}
                 Who is the National Head controlling this scheme?
@@ -226,7 +226,7 @@ const Faq = () => {
               </div>
             </div>
             <div class="tab">
-              <input type="checkbox" id="chck17" />
+              <input className="faqinput" type="checkbox" id="chck17" />
               <label class="tab-label" for="chck17">
                 {" "}
                 How many NSS unit can be allotted to an institution?
@@ -238,7 +238,7 @@ const Faq = () => {
               </div>
             </div>
             <div class="tab">
-              <input type="checkbox" id="chck18" />
+              <input className="faqinput" type="checkbox" id="chck18" />
               <label class="tab-label" for="chck18">
                 {" "}
                 How can one join NSS?
@@ -251,7 +251,7 @@ const Faq = () => {
               </div>
             </div>
             <div class="tab">
-              <input type="checkbox" id="chck19" />
+              <input className="faqinput" type="checkbox" id="chck19" />
               <label class="tab-label" for="chck19">
                 {" "}
                 I am a graduate and still very keen to be a part of NSS. How can
@@ -261,7 +261,7 @@ const Faq = () => {
               <div class="tab-content">You can join in an NSS open unit.</div>
             </div>
             <div class="tab">
-              <input type="checkbox" id="chck20" />
+              <input className="faqinput" type="checkbox" id="chck20" />
               <label class="tab-label" for="chck20">
                 {" "}
                 What is the uniform in NSS?
@@ -272,7 +272,7 @@ const Faq = () => {
               </div>
             </div>
             <div class="tab">
-              <input type="checkbox" id="chck21" />
+              <input className="faqinput" type="checkbox" id="chck21" />
               <label class="tab-label" for="chck21">
                 {" "}
                 Is it compulsory to wear NSS badge ?
