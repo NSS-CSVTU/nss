@@ -15,7 +15,7 @@ const Programcoordinator = () => {
   const isTablet = useMediaQuery({ query: "(max-width: 1224px)" });
   return (
     <div className="pages-height m-3 ">
-      <p className="text-center text-xl font-bold md:text-4xl m-3 underline">
+      <p className="text-center text-xl font-bold md:text-4xl m-5 underline">
         PROGRAMME CO-ORDINATOR
       </p>
       <div className="flex flex-col content-around lg:flex-row justify-center">
@@ -31,7 +31,7 @@ const Programcoordinator = () => {
             Programme Co-ordinator , CSVTU
           </p>
         </div>
-        <div className="text-center lg:text-left relative mt-16 mr-16 flex flex-wrap content-evenly lg:m-5 text-2xl">
+        <div className="text-center lg:text-left relative lg:mt-16 lg:mr-16  flex flex-wrap content-evenly lg:m-5 text-2xl">
           <p className="">
             I am exceedingly gratified to learn that the NSS CSVTU volunteers
             are highlighting its achievements and services for the betterment of

@@ -260,7 +260,7 @@ function Nav() {
                                   "block px-4 py-2 text-sm"
                                 )}
                               >
-                                Minutes of Meeting
+                                General Reports
                               </Link>
                             )}
                           </Menu.Item>
@@ -275,7 +275,7 @@ function Nav() {
                                   "block px-4 py-2 text-sm"
                                 )}
                               >
-                                Official Documents
+                                Announcements
                               </Link>
                             )}
                           </Menu.Item>
@@ -607,7 +607,7 @@ function Nav() {
                                 "block px-4 py-2 text-sm"
                               )}
                             >
-                              Minutes of Meeting
+                              General Reports
                             </Link>
                           )}
                         </Menu.Item>
@@ -622,7 +622,7 @@ function Nav() {
                                 "block px-4 py-2 text-sm"
                               )}
                             >
-                              Official Documents
+                              Announcements
                             </Link>
                           )}
                         </Menu.Item>

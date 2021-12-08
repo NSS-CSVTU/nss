@@ -56,9 +56,7 @@ function App() {
           <Route path="/districtlevel">
             <Districtlevel />
           </Route>
-          <Route path="/OfficialDocs">
-            <OfficialDocs />
-          </Route>
+
           <Route path="/faq">
             <Faq />
           </Route>
@@ -97,6 +95,7 @@ function App() {
           </Route>
           <Route path="/officialdocs">
             <OfficialDocs />
+
           </Route>
           <Route path="/nssunits">
             <Programofficer />

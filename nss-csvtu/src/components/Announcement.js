@@ -22,6 +22,34 @@ function Announcement() {
                 onmouseover="this.stop(); "
                 onmouseout="this.start();"
               >
+
+                <li className="my-4">
+                  <p className="date">
+                    <i className="far fa-calendar-alt"></i>
+                    <span className="border-b-4 ml-2">04-12-2021</span>
+                  </p>
+                  <a href="https://drive.google.com/file/d/1IWVq7sPfdf4MYmllESVtOREJLCK1Dkw2/view?usp=sharing" className="anchor hover:bg-blue-800 hover:underline">
+                    Regarding Aazadi Ka Amrit Mahotsav &nbsp;
+                  </a>
+                </li>
+                <li className="my-4">
+                  <p className="date">
+                    <i className="far fa-calendar-alt"></i>
+                    <span className="border-b-4 ml-2">04-12-2021</span>
+                  </p>
+                  <a href="https://drive.google.com/file/d/1Lu9K8kRmdU4cw5kD98mSCSm5m53P3mbf/view?usp=sharing" className="anchor hover:bg-blue-800 hover:underline">
+                  Regarding Free Vaccination Campaign</a>
+                </li>
+                <li className="my-4">
+                  <p className="date">
+                    <i className="far fa-calendar-alt"></i>
+                    <span className="border-b-4 ml-2">04-12-2021</span>
+                  </p>
+                  <a href="https://drive.google.com/file/d/1uIYvoQ0bSEqK2Z9LI_7tDhKsBCpiReF-/view?usp=sharing" className="anchor hover:bg-blue-800 hover:underline">
+                    In regards to the prevention and awareness of common non-communicable diseases  &nbsp;
+                    &nbsp;
+                  </a>
+                </li>
                 <li className="my-4">
                   <p className="date">
                     <i className="far fa-calendar-alt"></i>
@@ -41,21 +69,13 @@ function Announcement() {
 
                   </a>
                 </li>
-                <li className="my-4">
-                  <p className="date">
-                    <i className="far fa-calendar-alt"></i>
-                    <span className="border-b-4 ml-2">30-08-2021</span>
-                  </p>
-                  <a href="" className="anchor mt-2 hover:bg-blue-800 hover:underline">
-                    Pre- RDC selection &nbsp;
-                  </a>
-                </li>
+
 
               </marquee>
             </ul>
             <div className="text-center text-lg">
               <a
-                href="UnivNoticeBoard.aspx"
+                href="/officialdocs"
                 className="btn btn-danger"
                 style={{ marginleft: "15px" }}
               >

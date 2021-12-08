@@ -11,6 +11,9 @@ import BloodBITD from "../images/BlooddonationBITD.JPG";
 import BITR from "../images/upload/blood donation/BIT Raipur 1 (1).JPG";
 import preRD from "../images/preRD.JPG";
 import ChintanShivir from "../images/ChintanShivir.jpg"
+import PO_1Dayworkshop from "../images/PO_1Dayworkshop.jpg"
+import ConstitutionDay from "../images/National Constitution Day.jpg"
+import SocialMediaWorkshop from "../images/SocialMediaWorkshop.jpg"
 
 import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper";
 
@@ -42,7 +45,7 @@ const Feed = () => {
                   <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                     <img
                         class="lg:h-48 md:h-36 w-full object-cover object-center"
-                        src={preRD}
+                        src={PO_1Dayworkshop}
                         alt="blog"
                     />
                     <div class="p-6">
@@ -50,17 +53,11 @@ const Feed = () => {
                         CATEGORY
                       </h2>
                       <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-                        Pre-RDC Selection
+                        One Day Workshop
                       </h1>
                       <p class="leading-relaxed mb-3">
-                        Pre-RDC (Republic Day Camp) selection will be held at
-                        NSS Unit of BITD today in the watchful eyes of
-                        honourable guests- Shri A.S Kabir, Regional Director NSS
-                        Dr Samrendra Singh, State NSS officer Ms. Uma P.
-                        BalaRaju, NCC Officer, BIT Durg Mr Chandrakant Sahu, NCC
-                        Officer, ITI Bhilai Dr. D.S. Raghuvanshi, CSVTU NSS
-                        Coordinator Mr. Ashutosh Jain, Para Medical Staff SSSCN
-                        Junwani, Bhilai
+                        Nss Csvtu Bhilai conducted a one day workshop for programme officers on 03 Dec 2021.
+                        The  guests  were Prof. M. K. Verma (Hon'ble Vice Chancellor,CSVTU) , Dr. K. K. Verma (Registrar-CSVTU) , Dr. Samrendra Singh (State NSS Officer) , Dr. R. P. Agrawal (Programme coordinator-Hemchand Yadav University, Durg) , Dr. D.S. Raghuwanshi (Programme Co-ordinator -CSVTU, Bhilai).
                       </p>
                       <div class="flex items-center flex-wrap ">
                         <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
@@ -88,7 +85,7 @@ const Feed = () => {
                   <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                     <img
                         class="lg:h-48 md:h-36 w-full object-cover object-center"
-                        src={preRD}
+                        src={ConstitutionDay}
                         alt="blog"
                     />
                     <div class="p-6">
@@ -96,18 +93,49 @@ const Feed = () => {
                         CATEGORY
                       </h2>
                       <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-                        Pre-RDC Selection
+                        National Constitution Day
                       </h1>
                       <p class="leading-relaxed mb-3">
-                        Pre-RDC (Republic Day Camp) selection will be held at
-                        NSS Unit of BITD today in the watchful eyes of
-                        honourable guests- Shri A.S Kabir, Regional Director NSS
-                        Dr Samrendra Singh, State NSS officer Ms. Uma P.
-                        BalaRaju, NCC Officer, BIT Durg Mr Chandrakant Sahu, NCC
-                        Officer, ITI Bhilai Dr. D.S. Raghuvanshi, CSVTU NSS
-                        Coordinator Mr. Ashutosh Jain, Para Medical Staff SSSCN
-                        Junwani, Bhilai
+                        National Service Scheme, CSVTU,  Bhilai affiliated units celebrated National Constitution Day on 26 November 2021.
                       </p>
+                      <div class="flex items-center flex-wrap ">
+                        <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                          Learn More
+                          <svg
+                              class="w-4 h-4 ml-2"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              fill="none"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                          >
+                            <path d="M5 12h14"></path>
+                            <path d="M12 5l7 7-7 7"></path>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div class="p-0">
+                  <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                    <img
+                        class="lg:h-48 md:h-36 w-full object-cover object-center"
+                        src={SocialMediaWorkshop}
+                        alt="blog"
+                    />
+                    <div class="p-6">
+                      <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                        CATEGORY
+                      </h2>
+                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                        Social Media Workshop
+                      </h1>
+                      <p class="leading-relaxed mb-3">
+                        on 25th November 2021, NSS Cell Hemchand Yadav University, Durg Chhattisgarh has organized a virtual mode online webinar regarding the use of social media for the promotion of activities through social media. In this webinar, Shri A S Kabir Regional Director, RD Madhya Pradesh - Chhattisgarh, Government of India had said “we have to reach out to the people by using social media, with the pace of time- Along with this, we have to change ourself and the activities happening in backward areas can also reach the state, national level, and international level easily." </p>
                       <div class="flex items-center flex-wrap ">
                         <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
                           Learn More

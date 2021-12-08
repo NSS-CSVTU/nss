@@ -3,108 +3,69 @@ import "./css/meeting.css";
 
 const Minutesofmeeting = () => {
   return (
-    <div className="h-screen">
-      <div class="inner_right" id="skipCont">
-        <div class="title-outer">
-          <h1 class="page__title title" id="page-title">
-            Minutes Of The Meeting:
-          </h1>
+      <div className="pages-height w-screen overflow-x-auto">
+        <div className="m-5 bg-blue-200">
+        <h1 className="tb-title m-3 bg-blue-200">
+          National Service Scheme Chhattisgarh Swami Vivekanand Technical
+        </h1>
+        <h1 className="tb-title m-5 bg-blue-200">
+          General Reports:
+        </h1>
         </div>
-        <div class="scroll-table">
-          <table class="views-table cols-5">
-            <thead>
-              <tr>
-                <th class="views-field views-field-counter" scope="col">
-                  S.No.{" "}
-                </th>
-                <th class="views-field views-field-title" scope="col">
-                  Title{" "}
-                </th>
-                <th
-                  class="views-field views-field-field-tender-srart-date"
-                  scope="col"
-                >
-                  Start Date{" "}
-                </th>
-                <th
-                  class="views-field views-field-field-tender-end-date"
-                  scope="col"
-                >
-                  Time{" "}
-                </th>
-                <th class="views-field views-field-field-attached" scope="col">
-                  Attachment{" "}
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr class="odd views-row-first">
-                <td
-                  class="views-field views-field-counter"
-                  data-label="
-            S.No.          "
-                >
-                  1{" "}
-                </td>
-                <td
-                  class="views-field views-field-title"
-                  data-label="
-            Title          "
-                >
-                  Volunteer Time Bank-Kartavya APP{" "}
-                </td>
-                <td
-                  class="views-field views-field-field-tender-srart-date"
-                  data-label="
-            Start Date          "
-                >
-                  <span
-                    class="date-display-single"
-                    property="dc:date"
-                    datatype="xsd:dateTime"
-                    content="2019-08-16T00:00:00+05:30"
-                  >
-                    16-Aug-2019
-                  </span>{" "}
-                </td>
-                <td
-                  class="views-field views-field-field-tender-end-date"
-                  data-label="
-            Time          "
-                >
-                  <span
-                    class="date-display-single"
-                    property="dc:date"
-                    datatype="xsd:dateTime"
-                    content="2019-09-05T00:00:00+05:30"
-                  >
-                    4:00pm-5:00pm
-                  </span>{" "}
-                </td>
-                <td
-                  class="views-field views-field-field-attached"
-                  data-label="
-            Attachment          "
-                >
-                  <div class="item-list">
-                    <ul>
-                      <li class="first last">
-                        <a
-                          href="https://drive.google.com/file/d/1RD_vozxB78yZLNkHUOr65WtudNqGAav0/view?usp=sharing"
-                          target="_blank"
-                        >
-                          <i class="fa fa-download" aria-hidden="true"></i>{" "}
-                        </a>
-                      </li>
-                    </ul>
-                  </div>{" "}
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+        <table className="GeneratedTable table-auto text-center md:w-full lg:h-full  .border-2 .border-black">
+          <tr>
+            <th style={{ width: "50px" }}>S.No.</th>
+            <th style={{ width: "50px" }}>Report</th>
+            <th style={{ width: "50px" }}>Download</th>
+
+          </tr>
+          <tr>
+            <td style={{ width: "50px" }}></td>
+            <td style={{ width: "50px" }}></td>
+            <td style={{ width: "50px" }}></td>
+
+
+          </tr>
+          <tr>
+            <td style={{ width: "50px" }}>1</td>
+            <td style={{ width: "50px" }}>NSS Tilda</td>
+            <td style={{ width: "50px" }}>
+
+              <a
+                  href="https://drive.google.com/file/d/1QbYmFB7AhOp-G-bKvOQ5EY0KBi2R1uUF/view?usp=sharing"
+                  target="_blank"
+              >
+                <i className="fa fa-download" aria-hidden="true"></i>
+              </a></td>
+
+          </tr>
+          <tr>
+            <td style={{ width: "50px" }}>2</td>
+            <td style={{ width: "50px" }}>Pre-RD Report</td>
+            <td style={{ width: "50px" }}> <a
+                href="https://drive.google.com/file/d/1RD_vozxB78yZLNkHUOr65WtudNqGAav0/view?usp=sharing"
+                target="_blank"
+            >
+              <i className="fa fa-download" aria-hidden="true"></i>
+            </a></td>
+
+          </tr>
+          <tr>
+            <td style={{ width: "50px" }}>3</td>
+            <td style={{ width: "50px" }}>Report(November 2021)
+            </td>
+
+            <td style={{ width: "50px" }}>
+              <a
+                  href="https://drive.google.com/file/d/1RD_vozxB78yZLNkHUOr65WtudNqGAav0/view?usp=sharing"
+                  target="_blank"
+              >
+                <i className="fa fa-download" aria-hidden="true"></i>
+              </a></td>
+
+          </tr>
+        </table>
       </div>
-    </div>
   );
 };
 

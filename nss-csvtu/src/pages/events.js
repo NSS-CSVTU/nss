@@ -4,7 +4,7 @@ import Feed from '../components/Feed';
 const Regular = () => {
     return (
         <div className='pages-height'>
-            <div className="flex flex-col text-lg  justify-center p-5 m-5 space-y-5">
+            <div className="flex flex-col text-lg  justify-center m-3 md:p-5 md:m-5 space-y-5">
                 <div className="text-center m-3 text-4xl font-bold underline">
                     <p className="m-3 bg-blue-200"> Regular Events</p>
                 </div>
@@ -82,6 +82,11 @@ const Regular = () => {
                     </li>
                 </ol>
             </div>
+            {/*<iframe*/}
+            {/*    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100074265591861&tabs=timeline&width=500px&height=500px&small_header=false&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"*/}
+            {/*    width="500px" height="500px" style={{"border:none;overflow":"hidden", scrolling:"no" , frameBorder:"0" ,*/}
+            {/*    allowFullScreen:"true" ,*/}
+            {/*    allow:"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"}}></iframe>*/}
             <Feed/>
         </div>
     )
