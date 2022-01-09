@@ -3,9 +3,15 @@ import "./css/faq.scss";
 const Faq = () => {
   return (
     <div className="container">
-      <h1 className="font-bold text-4xl m-3">
-        FAQ <sub>s</sub>
-      </h1>
+      
+        <div className="m-5 bg-blue-200">
+                <h1 className="tb-title m-3 bg-blue-200">
+                    National Service Scheme Chhattisgarh Swami Vivekanand Technical University
+                </h1>
+                <h1 className="tb-title text-2xl m-5 bg-blue-200">
+                FAQ <sub>s</sub>
+                </h1>
+            </div>
       <div class="row">
         <div class="col">
           <div class="tabs">

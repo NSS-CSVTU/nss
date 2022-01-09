@@ -4,12 +4,14 @@ import "./css/po.css";
 const Programofficer = () => {
   return (
     <div className="pages-height w-screen overflow-x-auto">
-      <h1 className="tb-title">
-        National Service Scheme Chhattisgarh Swami Vivekanand Technical
-      </h1>
-      <h1 className="tb-title">
-        University, Bhilai TELE/E-MAIL ID of NSS Family
-      </h1>
+      <div className="m-5 bg-blue-200">
+        <h1 className="tb-title m-3 bg-blue-200">
+          National Service Scheme Chhattisgarh Swami Vivekanand Technical University, Bhilai
+        </h1>
+        <h1 className="tb-title m-5 bg-blue-200">
+         List of NSS Units Under CSVTU
+        </h1>
+        </div>
 
       <table className="GeneratedTable table-auto  md:w-full lg:h-full  .border-2 .border-black">
         <tr>

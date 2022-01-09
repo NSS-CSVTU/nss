@@ -3,13 +3,19 @@ import React from "react";
 const AimObjective = () => {
   return (
     <div className="pages-height">
-      <div className="views-field views-field-body flex flex-wrap justify-center m-3 p-3">
-        {" "}
-        <div className=" text-4xl font-bold underline">
-          <p className="bg-blue-200"> AIM & OBJECTIVE OF NATIONAL SERVICE SCHEME</p>
-        </div>
+      <div className="justify-center m-3">
+        
+          <div className="m-5 bg-blue-200">
+                <h1 className="tb-title m-3 bg-blue-200">
+                    National Service Scheme Chhattisgarh Swami Vivekanand Technical University
+                </h1>
+                <h1 className="tb-title m-5 bg-blue-200">
+                AIM & OBJECTIVE OF NATIONAL SERVICE SCHEME
+                </h1>
+            </div>
+        
         <div className="field-content m-5">
-          <p className="text-xl " style={{ "text-align": "justify" }}>
+          <p className="font-bold " style={{ "text-align": "justify" }}>
             The main objectives of National Service Scheme (NSS) are :
           </p>
           <p style={{ "text-align": "justify" }}>
@@ -37,7 +43,7 @@ const AimObjective = () => {
             <br />
             x. practise national integration and social harmony
           </p>
-          <h3 className="font-bold text-3xl mt-3 mb-1">Motto:</h3>
+          <h3 className="font-bold mt-3 mb-1">Motto:</h3>
           <p style={{ "text-align": "justify" }}>
             The Motto of NSS "Not Me But You", reflects the essence of
             democratic living and upholds the need for self-less service. NSS
@@ -49,7 +55,7 @@ const AimObjective = () => {
             therefore, the NSS volunteers shall strive for the well-being of the
             society.
           </p>
-          <h3 className="font-bold text-3xl mt-3 mb-1">NSS Logo:</h3>
+          <h3 className="font-bold mt-3 mb-1">NSS Logo:</h3>
           <p style={{ "text-align": "justify" }}>
             The logo for the NSS has been based on the giant Rath Wheel of the
             world famous Konark Sun Temple (The Black Pagoda) situated in
@@ -61,7 +67,7 @@ const AimObjective = () => {
             well as change and implies the continuous striving of NSS for social
             change.
           </p>
-          <h3 className="font-bold text-3xl mt-3 mb-1">NSS Badge:</h3>
+          <h3 className="font-bold  mt-3 mb-1">NSS Badge:</h3>
           <p style={{ "text-align": "justify" }}>
             The NSS logo is embossed on the badge of NSS. The eight bars in the
             wheel of NSS logo represent the 24 hours of a day. The red colour

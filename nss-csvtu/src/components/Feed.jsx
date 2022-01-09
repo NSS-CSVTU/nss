@@ -14,6 +14,8 @@ import ChintanShivir from "../images/ChintanShivir.jpg"
 import PO_1Dayworkshop from "../images/PO_1Dayworkshop.jpg"
 import ConstitutionDay from "../images/National Constitution Day.jpg"
 import SocialMediaWorkshop from "../images/SocialMediaWorkshop.jpg"
+import NIC from "../images/events/NIC2021.png";
+
 
 import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper";
 
@@ -40,6 +42,46 @@ const Feed = () => {
             slidesPerView={isMobile ? 1 : isTablet ? 2 : 3}
           >
             <div class="flex flex-wrap justify-center align-middle">
+            <SwiperSlide>
+                <div class="p-0">
+                  <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                    <img
+                        class="lg:h-48 md:h-36 w-full object-cover object-center"
+                        src={NIC}
+                        alt="blog"
+                    />
+                    <div class="p-6">
+                      <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                        CATEGORY
+                      </h2>
+                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                        National Integration Camp 2021
+                      </h1>
+                      <p class="leading-relaxed mb-3">
+                      National Integration Camp- 2021, Hisar (Haryana)- This camp was organized by Govt of India, Ministry of Youth Affairs and Sports, NSS Regional Directorate Delhi at Chaudhary Charan Singh Haryana Agricultural University, Hisar from 16 to 22nd December 2021.
+By presenting Dance, Singing, Drama, and Mimickry, the Volunteers made full use of this opportunity by entertaining the fellow NSS volunteers with the sounds of their homeland.
+                      </p>
+                      <div class="flex items-center flex-wrap ">
+                        <a href="/regularevent" class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                          Learn More
+                          <svg
+                              class="w-4 h-4 ml-2"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              fill="none"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                          >
+                            <path d="M5 12h14"></path>
+                            <path d="M12 5l7 7-7 7"></path>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
               <SwiperSlide>
                 <div class="p-0">
                   <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
@@ -60,7 +102,7 @@ const Feed = () => {
                         The  guests  were Prof. M. K. Verma (Hon'ble Vice Chancellor,CSVTU) , Dr. K. K. Verma (Registrar-CSVTU) , Dr. Samrendra Singh (State NSS Officer) , Dr. R. P. Agrawal (Programme coordinator-Hemchand Yadav University, Durg) , Dr. D.S. Raghuwanshi (Programme Co-ordinator -CSVTU, Bhilai).
                       </p>
                       <div class="flex items-center flex-wrap ">
-                        <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                        <a href="/regularevent" class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
                           Learn More
                           <svg
                               class="w-4 h-4 ml-2"
@@ -99,7 +141,7 @@ const Feed = () => {
                         National Service Scheme, CSVTU,  Bhilai affiliated units celebrated National Constitution Day on 26 November 2021.
                       </p>
                       <div class="flex items-center flex-wrap ">
-                        <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                        <a href="/regularevent" class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
                           Learn More
                           <svg
                               class="w-4 h-4 ml-2"
@@ -137,7 +179,7 @@ const Feed = () => {
                       <p class="leading-relaxed mb-3">
                         on 25th November 2021, NSS Cell Hemchand Yadav University, Durg Chhattisgarh has organized a virtual mode online webinar regarding the use of social media for the promotion of activities through social media. In this webinar, Shri A S Kabir Regional Director, RD Madhya Pradesh - Chhattisgarh, Government of India had said “we have to reach out to the people by using social media, with the pace of time- Along with this, we have to change ourself and the activities happening in backward areas can also reach the state, national level, and international level easily." </p>
                       <div class="flex items-center flex-wrap ">
-                        <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                        <a href="/regularevent" class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
                           Learn More
                           <svg
                               class="w-4 h-4 ml-2"
@@ -176,7 +218,7 @@ const Feed = () => {
                         A three-day meditation camp was organised by the National Service Scheme Cell of Chhattisgarh State at Prayog Ashram Tilda, District Raipur Ch.G. from 8 to 10 November 2021 Program coordinators, district organizers and program officers and volunteers of various universities of the state participated in this camp.
                       </p>
                       <div class="flex items-center flex-wrap ">
-                        <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                        <a href="/regularevent" class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
                           Learn More
                           <svg
                               class="w-4 h-4 ml-2"
@@ -222,7 +264,7 @@ const Feed = () => {
                         Junwani, Bhilai
                       </p>
                       <div class="flex items-center flex-wrap ">
-                        <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                        <a href="/regularevent" class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
                           Learn More
                           <svg
                             class="w-4 h-4 ml-2"
@@ -266,7 +308,7 @@ const Feed = () => {
                         awareness and to assist Durg Police.
                       </p>
                       <div class="flex items-center flex-wrap ">
-                        <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                        <a href="/regularevent" class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
                           Learn More
                           <svg
                             class="w-4 h-4 ml-2"
@@ -310,7 +352,7 @@ const Feed = () => {
                         hygienic society.
                       </p>
                       <div class="flex items-center flex-wrap">
-                        <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                        <a href="/regularevent" class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
                           Learn More
                           <svg
                             class="w-4 h-4 ml-2"
@@ -353,7 +395,7 @@ const Feed = () => {
                         public to keep India clean. .
                       </p>
                       <div class="flex items-center flex-wrap ">
-                        <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                        <a href="/regularevent" class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
                           Learn More
                           <svg
                             class="w-4 h-4 ml-2"
@@ -396,7 +438,7 @@ const Feed = () => {
                         Saving a life"
                       </p>
                       <div class="flex items-center flex-wrap ">
-                        <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                        <a href="/regularevent" class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
                           Learn More
                           <svg
                             class="w-4 h-4 ml-2"
@@ -438,7 +480,7 @@ const Feed = () => {
                         to do it too.
                       </p>
                       <div class="flex items-center flex-wrap ">
-                        <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                        <a href="/regularevent" class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
                           Learn More
                           <svg
                             class="w-4 h-4 ml-2"

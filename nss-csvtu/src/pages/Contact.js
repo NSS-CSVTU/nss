@@ -2,12 +2,12 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="bg-blue-200">
+    <div className="">
       <section className="text-gray-600 body-font relative">
         <div className="text-center text-4xl font-bold underline">
-          <p className="m-3 bg-blue-200"> CONTACT US</p>
+          <p className="m-3 "> CONTACT US</p>
         </div>
-        <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
+        <div className="bg-blue-200 m-5 container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
           <div className="lg:w-2/3 md:w-1/2 bg-gray-800 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
             <iframe
               width="100%"

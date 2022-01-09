@@ -15,14 +15,20 @@ const Programcoordinator = () => {
   const isTablet = useMediaQuery({ query: "(max-width: 1224px)" });
   return (
     <div className="pages-height m-3 ">
-      <p className="text-center text-xl font-bold md:text-4xl m-5 underline">
-        PROGRAMME CO-ORDINATOR
-      </p>
+       <div className="m-5 bg-blue-200">
+                <h1 className="tb-title m-3 bg-blue-200">
+                    National Service Scheme Chhattisgarh Swami Vivekanand Technical University
+                </h1>
+                <h1 className="tb-title m-5 bg-blue-200">
+                PROGRAM COORDINATOR
+                </h1>
+            </div>
+        
       <div className="flex flex-col content-around lg:flex-row justify-center">
         <div className="flex-col flex items-center justify-center space-around relative lg:w-full lg:h-full">
           <img
             src={PC}
-            className="h-60 mt-16 object-contain relative justify-center border-black border-2"
+            className="h-60 mt-5 object-contain relative justify-center border-black border-2"
           />
           <p className="m-2 text-red-800 text-sm text-center font-bold">
             DR. D. S. RAGHUWANSHI

@@ -22,7 +22,15 @@ function Announcement() {
                 onmouseover="this.stop(); "
                 onmouseout="this.start();"
               >
-
+                 <li className="my-4">
+                  <p className="date">
+                    <i className="far fa-calendar-alt"></i>
+                    <span className="border-b-4 ml-2">01-01-2022</span>
+                  </p>
+                  <a href="https://drive.google.com/file/d/1ssHbaPBc7kxmYZko8j3JceSiX8LkOizP/view?usp=sharing" className="anchor hover:bg-blue-800 hover:underline">
+                    Regarding National Youth Day(12th Jan 2022) &nbsp;
+                  </a>
+                </li>
                 <li className="my-4">
                   <p className="date">
                     <i className="far fa-calendar-alt"></i>

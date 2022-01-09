@@ -7,10 +7,10 @@ const OfficialDocs = () => {
 
             <div className="m-5 bg-blue-200">
                 <h1 className="tb-title m-3 bg-blue-200">
-                    National Service Scheme Chhattisgarh Swami Vivekanand Technical
+                    National Service Scheme Chhattisgarh Swami Vivekanand Technical University
                 </h1>
                 <h1 className="tb-title m-5 bg-blue-200">
-                    Announcements
+                    ANNOUNCEMENTS
                 </h1>
             </div>
 
@@ -32,6 +32,20 @@ const OfficialDocs = () => {
                 </tr>
                 <tr>
                     <td style={{ width: "50px" }}>1</td>
+                    <td style={{ width: "50px" }}>01-01-22</td>
+                    <td style={{ width: "50px" }}>Regarding National Youth Day(12th Jan 2022)</td>
+                    <td style={{ width: "50px" }}>
+
+                            <a
+                                href="https://drive.google.com/file/d/1ssHbaPBc7kxmYZko8j3JceSiX8LkOizP/view?usp=sharing"
+                                target="_blank"
+                            >
+                                <i className="fa fa-download" aria-hidden="true"></i>
+                            </a></td>
+
+                </tr>
+                <tr>
+                    <td style={{ width: "50px" }}>2</td>
                     <td style={{ width: "50px" }}>04-12-21</td>
                     <td style={{ width: "50px" }}>Regarding Aazadi Ka Amrit Mahotsav</td>
                     <td style={{ width: "50px" }}>
@@ -45,7 +59,7 @@ const OfficialDocs = () => {
 
                 </tr>
                 <tr>
-                    <td style={{ width: "50px" }}>2</td>
+                    <td style={{ width: "50px" }}>3</td>
                     <td style={{ width: "50px" }}>04-12-21</td>
                         <td style={{ width: "50px" }}>Regarding Free Vaccination Campaign</td>
                         <td style={{ width: "50px" }}> <a
@@ -57,7 +71,7 @@ const OfficialDocs = () => {
 
                 </tr>
                 <tr>
-                    <td style={{ width: "50px" }}>3</td>
+                    <td style={{ width: "50px" }}>4</td>
                     <td style={{ width: "50px" }}>04-12-21</td>
                     <td style={{ width: "50px" }}>In regards to the prevention and awareness of common non-communicable diseases
                     </td>
@@ -72,7 +86,7 @@ const OfficialDocs = () => {
 
                 </tr>
                 <tr>
-                    <td style={{ width: "50px" }}>4</td>
+                    <td style={{ width: "50px" }}>5</td>
                     <td style={{ width: "50px" }}>26-11-21</td>
                     <td style={{ width: "50px" }}>SOCIAL MEDIA WORKSHOP :- A virtual mode online webinar regarding the use of social media for the promotion of activities through social media.</td>
 
@@ -85,7 +99,7 @@ const OfficialDocs = () => {
 
                 </tr>
                 <tr>
-                    <td style={{ width: "50px" }}>5</td>
+                    <td style={{ width: "50px" }}>6</td>
                     <td style={{ width: "50px" }}>08-11-2021 to 10-11-2021</td>
                     <td style={{ width: "50px" }}>National Service Scheme State Level 3 days 'Chintan Shivir'(meditation camp) at Prayog Ashram, Tilda, District Raipur C.G.</td>
 

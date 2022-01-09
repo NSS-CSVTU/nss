@@ -4,16 +4,21 @@ import Feed from '../components/Feed';
 const Regular = () => {
     return (
         <div className='pages-height'>
-            <div className="flex flex-col text-lg  justify-center m-3 md:p-5 md:m-5 space-y-5">
-                <div className="text-center m-3 text-4xl font-bold underline">
-                    <p className="m-3 bg-blue-200"> Regular Events</p>
-                </div>
-                <p className="text-xl sm:text-lg m-5 font-bold" style={{"text-align": "justify"}}>
+            <div className=" justify-center ">
+            <div className="m-5 bg-blue-200">
+                <h1 className="tb-title m-3 bg-blue-200">
+                    National Service Scheme Chhattisgarh Swami Vivekanand Technical University
+                </h1>
+                <h1 className="tb-title m-5 bg-blue-200">
+                REGULAR EVENTS
+                </h1>
+            </div>
+                <p className=" sm:text-lg m-5 font-bold" style={{"text-align": "justify"}}>
                     NSS activities have been divided in two major groups. These are regular NSS activities
                     and special camping programme –
                 </p>
 
-                <p className="m-5 font-bold">Regular NSS Activity: Under this, students undertake various programmes
+                <p className="m-5 "><strong>Regular NSS Activity:</strong> Under this, students undertake various programmes
                     in the adopted villages, college/school campuses and urban slums during week
                     ends or after college hours. NSS volunteers undertake various
                     activities in adopted villages and slums for community service. Duration of these

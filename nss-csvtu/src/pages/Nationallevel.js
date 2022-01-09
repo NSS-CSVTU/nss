@@ -2,12 +2,17 @@ import React from "react";
 import Testimonials from "../components/Testimonials";
 const Nationallevel = () => {
   return (
-    <div className="pages-height m-5">
-        <div className="text-center text-4xl font-bold underline">
-            <p className="bg-blue-200 mb-5"> Awards:</p>
-        </div>
+    <div className="pages-height m-2">
+                    <div className="m-5 bg-blue-200">
+                <h1 className="tb-title m-3 bg-blue-200">
+                    National Service Scheme Chhattisgarh Swami Vivekanand Technical University
+                </h1>
+                <h1 className="tb-title m-5 bg-blue-200">
+                    AWARDS
+                </h1>
+            </div>
         <section className="text-gray-600 body-font">
-            <div className="container px-5 py-24 mx-auto">
+            <div className="container px-5 lg:py-24 mx-auto">
                 <div className="flex flex-wrap w-full mb-20">
                     <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
                         <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Awards and Achievements</h1>

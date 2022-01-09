@@ -7,13 +7,15 @@ const About = () => {
   return (
     <div className="bg-opacity-75  bg-gradient-to-r from-white-800 via-blue-500 to-white-800">
       <div class="field-content text-center">
-        <p className="text-center bg-red-200 p-3">
-          <strong>National Service Scheme (NSS)</strong>
-        </p>
-        <p className="text-center bg-gray-200 ">
-          <strong>About National Service Scheme (NSS)</strong>
-        </p>
-        <p className="break-normal p-5 m-3">
+        <div className="m-5 bg-blue-200">
+        <h1 className="tb-title m-3 bg-blue-200">
+          National Service Scheme Chhattisgarh Swami Vivekanand Technical University
+        </h1>
+        <h1 className="tb-title m-5 bg-blue-200">
+        About National Service Scheme (NSS)
+        </h1>
+        </div>
+        <p className=" break-normal p-5 m-3">
           National Service Scheme (NSS) is an initiative of the Ministry of
           Youth Affairs and Sports of the Government of India. After the
           Independence of our Nation, there was an urge for introducing social
@@ -142,19 +144,19 @@ const About = () => {
           <u>Motto:</u>
         </strong>
       </p>
-      <p className="text-center text-xl p-3">
+      <p className="text-center p-3">
         The motto of National Service Scheme is <strong>NOT ME BUT YOU</strong>
       </p>
       <p className="text-center text-xl p-3">
         <strong>Benefits of Being a NSS Volunteer:</strong>
       </p>
-      <p className="text-center text-xl p-3">
+      <p className="text-center  p-3">
         A NSS volunteer who takes part in the community service programme would
         either be a college level or a senior secondary level student. Being an
         active member these student volunteers would have the exposure and
         experience to be the following:
       </p>
-      <ul className="relative text-center text-xl ">
+      <ul className="relative mb-10 text-center ">
         <li>an accomplished social leader</li>
         <li>an efficient administrator</li>
         <li>a person who understands human nature</li>

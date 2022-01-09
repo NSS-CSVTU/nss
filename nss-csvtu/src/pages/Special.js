@@ -2,7 +2,7 @@ import React from 'react'
 
 const Special = () => {
     return (
-      <div>
+      <div className="h-full">
 
       </div>
     );

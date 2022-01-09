@@ -192,7 +192,7 @@ function Nav() {
                                 </a>
                             )}
                           </Menu.Item>
-                          <Menu.Item>
+                          {/* <Menu.Item>
                             {({ active }) => (
                                 <Link
                                     to="/specialevent"
@@ -206,7 +206,7 @@ function Nav() {
                                   Special Events
                                 </Link>
                             )}
-                          </Menu.Item>
+                          </Menu.Item> */}
 
                         </div>
                       </Menu.Items>
@@ -237,7 +237,7 @@ function Nav() {
                           <Menu.Item>
                             {({ active }) => (
                               <a
-                                href="https://drive.google.com/file/d/1p160R-Vc3xGmcXZtCpCa8sRiBUvoK9R_/view?usp=sharing"
+                                href="https://drive.google.com/file/d/1jEACwc49MKNe84l3rVipTdC_GqpcUfDU/view?usp=sharing"
                                 className={classNames(
                                   active
                                     ? "bg-gray-100 text-gray-900"
@@ -536,7 +536,7 @@ function Nav() {
                               </a>
                           )}
                         </Menu.Item>
-                        <Menu.Item>
+                        {/* <Menu.Item>
                           {({ active }) => (
                               <Link
                                   to="/specialevent"
@@ -550,7 +550,7 @@ function Nav() {
                                 Special Event
                               </Link>
                           )}
-                        </Menu.Item>
+                        </Menu.Item> */}
 
                       </div>
                     </Menu.Items>

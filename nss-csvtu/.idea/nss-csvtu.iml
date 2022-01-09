@@ -10,5 +10,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Project" />
     <orderEntry type="module" module-name="project" />
+    <orderEntry type="module" module-name="100-blocks-a-day-backend" />
   </component>
 </module>
