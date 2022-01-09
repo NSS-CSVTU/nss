@@ -2,9 +2,9 @@ import React from "react";
 import "./css/faq.scss";
 const Faq = () => {
   return (
-    <div className="container">
+    <div className="md:m-2">
       
-        <div className="m-5 bg-blue-200">
+        <div className="m-5 text-center bg-blue-200">
                 <h1 className="tb-title m-3 bg-blue-200">
                     National Service Scheme Chhattisgarh Swami Vivekanand Technical University
                 </h1>
@@ -12,7 +12,7 @@ const Faq = () => {
                 FAQ <sub>s</sub>
                 </h1>
             </div>
-      <div class="row">
+      <div class="row ">
         <div class="col">
           <div class="tabs">
             <div class="tab">
