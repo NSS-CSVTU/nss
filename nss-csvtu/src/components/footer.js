@@ -30,6 +30,8 @@ function Footer() {
           className="lg:w-1/5 md:w-1/5 w-1/2 sm:mx-0 mx-4 sm:p-16"
           src={fitindia}
         />
+        <p className="mt-1 p-1 text-center" >Made by - N Deepika and Muskan Kela <br></br>(NSS-SSTC Volunteer)</p>
+       {/* {isMobile &&  <p className="mt-1 p-1 text-center" >Made by - N Deepika and Muskan Kela <br></br>(NSS-SSTC Volunteer)</p>}  */}
       </div>
       <div className="footer-bottom flex bg-gray-500 py-4">
         <p className="footer-content px-2">
