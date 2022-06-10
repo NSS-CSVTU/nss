@@ -1,2 +1,0 @@
-# NSS
-National Service Scheme
