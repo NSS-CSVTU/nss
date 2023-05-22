@@ -30,7 +30,7 @@ function Team() {
           </div>
         </div>
         <div className="bg-white align-center border-2 border-black  p-5 col-start-1 col-end-1 row-start-2 row-end-2 rounded flex gap-10 justify-center">
-          <img className="" src={ASK} alt="" />
+          <img className="" src="/images/7.jpg" alt="" />
           {/* <div className="grid grid-col-1 m-1">
             <a href="https://www.facebook.com/ListenKabir">
               <i className="fab fa-facebook"></i>
