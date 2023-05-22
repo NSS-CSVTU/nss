@@ -22,62 +22,89 @@ function Announcement() {
                 onmouseover="this.stop(); "
                 onmouseout="this.start();"
               >
+                <li className="my-4">
+                  <p className="date">
+                    <i className="far fa-calendar-alt"></i>
+                    <span className="border-b-4 ml-2">05-06-2023</span>
+                  </p>
+                  <a href="https://drive.google.com/file/d/1fzN6Siy8EVR27wONivb5UYSdZO-B5cwL/view?usp=sharing" className="anchor hover:bg-blue-800 hover:underline">
+                  Regarding World Environment Day &nbsp;
+                  </a>
+                </li>
+
                  <li className="my-4">
                   <p className="date">
                     <i className="far fa-calendar-alt"></i>
-                    <span className="border-b-4 ml-2">01-01-2022</span>
+                    <span className="border-b-4 ml-2">10-05-2023</span>
                   </p>
-                  <a href="https://drive.google.com/file/d/1ssHbaPBc7kxmYZko8j3JceSiX8LkOizP/view?usp=sharing" className="anchor hover:bg-blue-800 hover:underline">
-                    Regarding National Youth Day(12th Jan 2022) &nbsp;
+                  <a href="https://drive.google.com/file/d/1tWIZ4Q3F-l7XZWj7Ax5c8PcPm3ITT0l9/view?usp=sharing" className="anchor hover:bg-blue-800 hover:underline">
+                  Program officers meeting on hybrid mode on 10 May 2023 &nbsp;
                   </a>
                 </li>
                 <li className="my-4">
                   <p className="date">
                     <i className="far fa-calendar-alt"></i>
-                    <span className="border-b-4 ml-2">04-12-2021</span>
+                    <span className="border-b-4 ml-2">21-04-2023</span>
                   </p>
-                  <a href="https://drive.google.com/file/d/1IWVq7sPfdf4MYmllESVtOREJLCK1Dkw2/view?usp=sharing" className="anchor hover:bg-blue-800 hover:underline">
-                    Regarding Aazadi Ka Amrit Mahotsav &nbsp;
+                  <a href="https://drive.google.com/file/d/13HD6343aOJ2GKuJPPcTNWJTgYEyqk9TJ/view?usp=sharing" className="anchor hover:bg-blue-800 hover:underline">
+                  Latest Social Media Account Updates of NSS Bhopal &nbsp;
                   </a>
                 </li>
                 <li className="my-4">
                   <p className="date">
                     <i className="far fa-calendar-alt"></i>
-                    <span className="border-b-4 ml-2">04-12-2021</span>
+                    <span className="border-b-4 ml-2">10-04-2023</span>
+                  </p>
+                  <a href="https://drive.google.com/file/d/1KOHdbNvBbR4pkzpMR7opfTB48cf9qAQ1/view?usp=share_link" className="anchor hover:bg-blue-800 hover:underline">
+                  Regarding gathering of information concerning School of Siksha Mitra Initiative Scheme &nbsp;
+                  </a>
+                </li>
+                
+                <li className="my-4">
+                  <p className="date">
+                    <i className="far fa-calendar-alt"></i>
+                    <span className="border-b-4 ml-2">10-02-2023</span>
+                  </p>
+                  <a href="https://drive.google.com/file/d/1v_jVM_9bY-Q2KXmxid0Tk3JIapFKU3Bp/view?usp=sharing" className="anchor hover:bg-blue-800 hover:underline">
+                  Regarding Y20 event details &nbsp;
+                  </a>
+                </li>
+                <li className="my-4">
+                  <p className="date">
+                    <i className="far fa-calendar-alt"></i>
+                    <span className="border-b-4 ml-2">10-02-2023</span>
+                  </p>
+                  <a href="https://drive.google.com/file/d/1sFtaQfpnyLh6cHgjPZk6QVbQLrwH69dO/view?usp=sharing" className="anchor hover:bg-blue-800 hover:underline">
+                  Regarding Y20-23 event concept  &nbsp;
+                  </a>
+                </li>
+                 <li className="my-4">
+                  <p className="date">
+                    <i className="far fa-calendar-alt"></i>
+                    <span className="border-b-4 ml-2">09-02-2023</span>
+                  </p>
+                  <a href="https://drive.google.com/file/d/1AyhEW-gdC-Z1d8f0ak1euUr6MfDtgOHA/view?usp=sharing" className="anchor hover:bg-blue-800 hover:underline">
+                    Yuva Samvaad (Covering Letter RD Bhopal)  &nbsp;
+                  </a>
+                </li>
+                <li className="my-4">
+                  <p className="date">
+                    <i className="far fa-calendar-alt"></i>
+                    <span className="border-b-4 ml-2">09-02-2023</span>
+                  </p>
+                  <a href="https://docs.google.com/spreadsheets/d/1zFknaYG3K7tiw5CDiZq8KIUsb7bqj_1k/edit?usp=sharing&ouid=107296010853974004440&rtpof=true&sd=true" className="anchor hover:bg-blue-800 hover:underline">
+                  Action plan for Yuva Samvaad &nbsp;
+                  </a>
+                </li>
+                <li className="my-4">
+                  <p className="date">
+                    <i className="far fa-calendar-alt"></i>
+                    <span className="border-b-4 ml-2">25-11-2022</span>
                   </p>
                   <a href="https://drive.google.com/file/d/1Lu9K8kRmdU4cw5kD98mSCSm5m53P3mbf/view?usp=sharing" className="anchor hover:bg-blue-800 hover:underline">
-                  Regarding Free Vaccination Campaign</a>
+                  7 day special unit camp list of NSS units affiliated with NSS cell of CSVTU</a>
                 </li>
-                <li className="my-4">
-                  <p className="date">
-                    <i className="far fa-calendar-alt"></i>
-                    <span className="border-b-4 ml-2">04-12-2021</span>
-                  </p>
-                  <a href="https://drive.google.com/file/d/1uIYvoQ0bSEqK2Z9LI_7tDhKsBCpiReF-/view?usp=sharing" className="anchor hover:bg-blue-800 hover:underline">
-                    In regards to the prevention and awareness of common non-communicable diseases  &nbsp;
-                    &nbsp;
-                  </a>
-                </li>
-                <li className="my-4">
-                  <p className="date">
-                    <i className="far fa-calendar-alt"></i>
-                    <span className="border-b-4 ml-2">26-11-2021</span>
-                  </p>
-                  <a href="https://drive.google.com/file/d/1YA9mSkdhXHHkvUSB2CcoLA4XDZ8Kcnks/view?usp=sharing" className="anchor hover:bg-blue-800 hover:underline">
-                    SOCIAL MEDIA WORKSHOP :- A virtual mode online webinar regarding the use of social media for the promotion of activities through social media. &nbsp;
-                  </a>
-                </li>
-                <li className="my-4">
-                  <p className="date">
-                    <i className="far fa-calendar-alt"></i>
-                    <span className="border-b-4 ml-2">08-11-2021 to 10-11-2021</span>
-                  </p>
-                  <a href="https://drive.google.com/file/d/1N4lbuusPsE4OYRGWV5j1MCwL-vvvuA8E/view?usp=sharing" className="anchor hover:bg-blue-800 hover:underline">
-                    National Service Scheme State Level 3 days 'Chintan Shivir'(meditation camp) at Prayog Ashram, Tilda, District Raipur C.G. &nbsp;
-
-                  </a>
-                </li>
-
+               
 
               </marquee>
             </ul>

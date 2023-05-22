@@ -1,7 +1,7 @@
 import React from 'react'
 import Feed from '../components/Feed';
 
-const Regular = () => {
+const Events = () => {
     return (
         <div className='pages-height'>
             <div className=" justify-center ">
@@ -97,4 +97,4 @@ const Regular = () => {
     )
 }
 
-export default Regular
+export default Events

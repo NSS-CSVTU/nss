@@ -8,16 +8,14 @@ import About from "./pages/About";
 import Administrativestructure from "./pages/Administrativestructure";
 import AimObjective from "./pages/AimObjective";
 import Contact from "./pages/Contact";
-import Districtlevel from "./pages/Districtlevel";
 import OfficialDocs from "./pages/OfficialDocs";
 import Faq from "./pages/Faq";
 import Latestnews from "./pages/Latestnews";
 import Minutesofmeeting from "./pages/Minutesofmeeting";
-import Nationaklevel from "./pages/Nationallevel";
+import Nationallevel from "./pages/Nationallevel";
 import Nssmanual from "./pages/Nssmanual";
 import Programcoordinator from "./pages/Programcoordinator";
-import Regular from "./pages/events";
-import Special from "./pages/Special";
+import Events from "./pages/Events";
 import Statelevel from "./pages/Statelevel";
 import Programofficer from "./pages/Programofficer";
 import Home from "./components/Home";
@@ -26,12 +24,13 @@ import Team from "./components/Team";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App relative min-h-screen">
       {/* <Feed /> */}
       <>
-        <Router>
+        <Router basename='/NSS_CSVTU'>
           <Nav />
           <Switch />
+          <div className="pb-10">
           <Route exact path="/">
             <Home />
           </Route>
@@ -50,22 +49,20 @@ function App() {
           <Route path="/contact">
             <Contact />
           </Route>
-          <Route path="/districtlevel">
+          {/* <Route path="/districtlevel">
             <Districtlevel />
-          </Route>
-
+          </Route> */}
           <Route path="/faq">
             <Faq />
           </Route>
-          
-          <Route path="/latestnews">
+          {/* <Route path="/latestnews">
             <Latestnews />
-          </Route>
+          </Route> */}
           <Route path="/minutesofmeeting">
             <Minutesofmeeting />
           </Route>
           <Route path="/awards">
-            <Nationaklevel />
+            <Nationallevel />
           </Route>
           <Route path="/nssmanual">
             <Nssmanual />
@@ -74,11 +71,8 @@ function App() {
           <Route path="/programcoordinator">
             <Programcoordinator />
           </Route>
-          <Route path="/regularevent">
-            <Regular />
-          </Route>
-          <Route path="/specialevent">
-            <Special />
+          <Route path="/events">
+            <Events />
           </Route>
           <Route path="/statelevel">
             <Statelevel />
@@ -95,6 +89,7 @@ function App() {
             <Team />
           </Route>
           {/* <Feed /> */}
+          </div>
           <Footer />
           <Switch />
         </Router>

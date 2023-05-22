@@ -177,10 +177,10 @@ function Nav() {
                     >
                       <Menu.Items className="origin-top-right z-50 absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
                         <div className="py-1">
-                          <Menu.Item>
+                          {/* <Menu.Item>
                             {({ active }) => (
                                 <a
-                                    href="/regularevent"
+                                    href="/events"
                                     className={classNames(
                                         active
                                             ? "bg-gray-100 text-gray-900"
@@ -190,6 +190,21 @@ function Nav() {
                                 >
                                   Regular Events
                                 </a>
+                            )}
+                          </Menu.Item> */}
+                                <Menu.Item>
+                            {({ active }) => (
+                              <Link
+                                to="/events"
+                                className={classNames(
+                                  active
+                                    ? "bg-gray-100 text-gray-900"
+                                    : "text-gray-700",
+                                  "block px-4 py-2 text-sm"
+                                )}
+                              >
+                                Regular Events
+                              </Link>
                             )}
                           </Menu.Item>
                           {/* <Menu.Item>
@@ -234,7 +249,7 @@ function Nav() {
                     >
                       <Menu.Items className="origin-top-right z-50 absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
                         <div className="py-1">
-                          <Menu.Item>
+                          {/* <Menu.Item>
                             {({ active }) => (
                               <a
                                 href="https://drive.google.com/file/d/1jEACwc49MKNe84l3rVipTdC_GqpcUfDU/view?usp=sharing"
@@ -248,7 +263,7 @@ function Nav() {
                                 Monthly Report
                               </a>
                             )}
-                          </Menu.Item>
+                          </Menu.Item> */}
                           <Menu.Item>
                             {({ active }) => (
                               <Link
@@ -260,7 +275,7 @@ function Nav() {
                                   "block px-4 py-2 text-sm"
                                 )}
                               >
-                                General Reports
+                                Monthly Reports
                               </Link>
                             )}
                           </Menu.Item>
@@ -521,10 +536,10 @@ function Nav() {
                   >
                     <Menu.Items className="origin-top-right z-50 relative right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
                       <div className="py-1">
-                        <Menu.Item>
+                        {/* <Menu.Item>
                           {({ active }) => (
                               <a
-                                  href="regularevent"
+                                  href="/events"
                                   className={classNames(
                                       active
                                           ? "bg-gray-100 text-gray-900"
@@ -535,7 +550,23 @@ function Nav() {
                                 Regular Event
                               </a>
                           )}
+                        </Menu.Item> */}
+                        <Menu.Item>
+                          {({ active }) => (
+                            <Link
+                              to="/events"
+                              className={classNames(
+                                active
+                                  ? "bg-gray-100 text-gray-900"
+                                  : "text-gray-700",
+                                "block px-4 py-2 text-sm"
+                              )}
+                            >
+                              Regular Event
+                            </Link>
+                          )}
                         </Menu.Item>
+
                         {/* <Menu.Item>
                           {({ active }) => (
                               <Link
@@ -581,7 +612,7 @@ function Nav() {
                   >
                     <Menu.Items className="origin-top-right z-50 relative right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
                       <div className="py-1">
-                        <Menu.Item>
+                        {/* <Menu.Item>
                           {({ active }) => (
                             <a
                               href="https://drive.google.com/file/d/1p160R-Vc3xGmcXZtCpCa8sRiBUvoK9R_/view?usp=sharing"
@@ -595,7 +626,7 @@ function Nav() {
                               Monthly Report
                             </a>
                           )}
-                        </Menu.Item>
+                        </Menu.Item> */}
                         <Menu.Item>
                           {({ active }) => (
                             <Link
@@ -607,7 +638,7 @@ function Nav() {
                                 "block px-4 py-2 text-sm"
                               )}
                             >
-                              General Reports
+                              Monthly Reports
                             </Link>
                           )}
                         </Menu.Item>

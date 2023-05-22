@@ -8,6 +8,9 @@ import Rec21 from "../images/upload/awards/Simardeep Singh Syal National Award 2
 import RD18 from "../images/RDC19.JPG";
 import BCS from "../images/upload/awards/Aakansha Mishra.jpg";
 import RDC from "../images/RDC.jpg";
+import RDC23 from "../images/RDC23.jpg";
+import deepakSSTC from "../images/deepakSSTC.jpg"
+import devashish from "../images/devashish.jpg"
 
 import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper";
 
@@ -34,6 +37,128 @@ const Feed = () => {
             slidesPerView={isMobile ? 1 : isTablet ? 2 : 3}
           >
             <div class="flex flex-wrap justify-center align-middle">
+            <SwiperSlide>
+                <div class="p-0 w-11/12 mx-auto">
+                  <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                    <img
+                      class="lg:h-48 bg-black md:h-36 w-full bg-black object-contain"
+                      src={devashish}
+                      alt="blog"
+                    />
+                    <div class="p-6">
+                      <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                        CATEGORY
+                      </h2>
+                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                        State Level Best NSS volunteer 
+                      </h1>
+                      <p class="leading-relaxed mb-3">
+                      Volunteer Devashish Patel of Government Engineering College, Raipur selected for Chhattisgarh State Level Best Volunteer Governor Award 2022 among approximately two lakh volunteers.
+
+                      </p>
+                      <div class="flex items-center flex-wrap ">
+                        <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                          Learn More
+                          <svg
+                            class="w-4 h-4 ml-2"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path d="M5 12h14"></path>
+                            <path d="M12 5l7 7-7 7"></path>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+            <SwiperSlide>
+                <div class="p-0  w-11/12 mx-auto">
+                  <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                    <img
+                      class="lg:h-48 bg-black md:h-36 w-full object-contain"
+                      src={RDC23}
+                      alt="blog"
+                    />
+                    <div class="p-6">
+                      <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                        CATEGORY
+                      </h2>
+                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                        R. D. Parade 2023
+                      </h1>
+                      <p class="leading-relaxed mb-3">
+                      The volunteers of National Service Scheme Cell of CSVTU, Bhilai  the NSS Regional Directorate Bhopal (Central Zone) in the Republic Day Parade 2023. 
+Volunteer Mrityunjay Sahu has received the honour to be the Left Platoon Commander. Volunteers Priyanka Sahu and Shanu Vaishnav were also the part of parade in the Rajpath in the file among the 200 selected NSS Volunteers.
+The volunteers attended the Republic Day Parade Camp, 2023 in Delhi.
+                      </p>
+                      <div class="flex items-center flex-wrap ">
+                        <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                          Learn More
+                          <svg
+                            class="w-4 h-4 ml-2"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path d="M5 12h14"></path>
+                            <path d="M12 5l7 7-7 7"></path>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div class="p-0 w-11/12 mx-auto">
+                  <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                    <img
+                      class="lg:h-48 bg-black md:h-36 w-full bg-black object-contain"
+                      src={deepakSSTC}
+                      alt="blog"
+                    />
+                    <div class="p-6">
+                      <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                        CATEGORY
+                      </h2>
+                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                        Presidential Award
+                      </h1>
+                      <p class="leading-relaxed mb-3">
+                      On NSS Foundation Day, volunteer Deepak Sinha from NSS-SSTC received National NSS Award in Volunteer Category for session 2020-21 from our Honorable President Smt. Draupadi Murmu at Rashtrapati Bhavan on 24th September 2022.
+Deepak Sinha received the award for his exceptional work for collecting Rs. 20600 funds for Kerela Flood Relief Funds and he's also been SVEEP Campus Ambassador, Ek Bharat Shreshth Bharat Project Manager and worked for spreading awareness for No Plastic, Women Empowerment, Green India, Impacting Education, Fit India, Rural Development and many more.
+                      </p>
+                      <div class="flex items-center flex-wrap ">
+                        <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                          Learn More
+                          <svg
+                            class="w-4 h-4 ml-2"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path d="M5 12h14"></path>
+                            <path d="M12 5l7 7-7 7"></path>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+              
               <SwiperSlide>
                 <div class="p-0 w-11/12 mx-auto">
                   <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
@@ -119,6 +244,47 @@ const Feed = () => {
                   </div>
                 </div>
               </SwiperSlide>
+              <SwiperSlide>
+                <div class="p-0  w-11/12 mx-auto">
+                  <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                    <img
+                      class="lg:h-48 bg-black md:h-36 w-full object-contain"
+                      src={RDC}
+                      alt="blog"
+                    />
+                    <div class="p-6">
+                      <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                        CATEGORY
+                      </h2>
+                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                        R. D. Parade 2021
+                      </h1>
+                      <p class="leading-relaxed mb-3">
+                        NSS Volunteers, Jitesh Dewangan from SSTC was selected
+                        for R.D. Parade 2021 on Republic Day at Red Fort Delhi
+                        in front of Our Prime Minister and President of India.
+                      </p>
+                      <div class="flex items-center flex-wrap ">
+                        <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                          Learn More
+                          <svg
+                            class="w-4 h-4 ml-2"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path d="M5 12h14"></path>
+                            <path d="M12 5l7 7-7 7"></path>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
 
               <SwiperSlide>
                 <div class="p-0  w-11/12 mx-auto">
@@ -161,48 +327,8 @@ const Feed = () => {
                   </div>
                 </div>
               </SwiperSlide>
-              <SwiperSlide>
-                <div class="p-0  w-11/12 mx-auto">
-                  <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                    <img
-                      class="lg:h-48 bg-black md:h-36 w-full object-contain"
-                      src={RDC}
-                      alt="blog"
-                    />
-                    <div class="p-6">
-                      <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
-                        CATEGORY
-                      </h2>
-                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-                        R. D. Parade 2021
-                      </h1>
-                      <p class="leading-relaxed mb-3">
-                        NSS Volunteers, Jitesh Dewangan from SSTC was selected
-                        for R.D. Parade 2021 on Republic Day at Red Fort Delhi
-                        in front of Our Prime Minister and President of India.
-                      </p>
-                      <div class="flex items-center flex-wrap ">
-                        <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
-                          Learn More
-                          <svg
-                            class="w-4 h-4 ml-2"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            fill="none"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          >
-                            <path d="M5 12h14"></path>
-                            <path d="M12 5l7 7-7 7"></path>
-                          </svg>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
+              
+              {/* <SwiperSlide>
                 <div class="p-0  w-11/12 mx-auto">
                   <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                     <img
@@ -242,7 +368,7 @@ const Feed = () => {
                     </div>
                   </div>
                 </div>
-              </SwiperSlide>
+              </SwiperSlide> */}
             </div>
           </Swiper>
         </div>

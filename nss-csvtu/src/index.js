@@ -5,6 +5,8 @@ import App from "./App";
 import "./css/index.css";
 import "./css/main.css";
 
+// const baseUrl = (document.querySelector('base') || {}).href;
+
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>

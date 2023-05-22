@@ -3,7 +3,8 @@ import "./css/meeting.css";
 
 const Minutesofmeeting = () => {
   return (
-      <div className="pages-height w-screen overflow-x-auto">
+    <div className="">
+      <div className=" w-screen overflow-x-auto">
         <div className="m-5 bg-blue-200">
         <h1 className="tb-title m-3 bg-blue-200">
           National Service Scheme Chhattisgarh Swami Vivekanand Technical University
@@ -28,11 +29,11 @@ const Minutesofmeeting = () => {
           </tr>
           <tr>
             <td style={{ width: "50px" }}>1</td>
-            <td style={{ width: "50px" }}>NSS Tilda</td>
+            <td style={{ width: "50px" }}>December Monthly Report </td>
             <td style={{ width: "50px" }}>
 
               <a
-                  href="https://drive.google.com/file/d/1QbYmFB7AhOp-G-bKvOQ5EY0KBi2R1uUF/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1FN6-mgTC0mU4kPKiJchHF5xGb28eWCBU/view?usp=sharing"
                   target="_blank"
               >
                 <i className="fa fa-download" aria-hidden="true"></i>
@@ -41,30 +42,18 @@ const Minutesofmeeting = () => {
           </tr>
           <tr>
             <td style={{ width: "50px" }}>2</td>
-            <td style={{ width: "50px" }}>Pre-RD Report</td>
+            <td style={{ width: "50px" }}>November Monthly Report</td>
             <td style={{ width: "50px" }}> <a
-                href="https://docs.google.com/document/d/1SndbA8Q1mjHlO7XWvcJMOmzw0ZlGw1uv/edit?usp=sharing&ouid=107296010853974004440&rtpof=true&sd=true"
+                href="https://drive.google.com/file/d/1HHgsao5DaMx3EIwNROVb_CkW5gAoRqef/view?usp=sharing"
                 target="_blank"
             >
               <i className="fa fa-download" aria-hidden="true"></i>
             </a></td>
 
           </tr>
-          <tr>
-            <td style={{ width: "50px" }}>3</td>
-            <td style={{ width: "50px" }}>Report(October 2021)
-            </td>
-
-            <td style={{ width: "50px" }}>
-              <a
-                  href="https://drive.google.com/file/d/1jEACwc49MKNe84l3rVipTdC_GqpcUfDU/view?usp=sharing"
-                  target="_blank"
-              >
-                <i className="fa fa-download" aria-hidden="true"></i>
-              </a></td>
-
-          </tr>
+          
         </table>
+      </div>
       </div>
   );
 };

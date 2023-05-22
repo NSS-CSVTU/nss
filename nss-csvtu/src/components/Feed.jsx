@@ -3,19 +3,18 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { useMediaQuery } from "react-responsive";
 import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
-import bloodDonate from "../images/files/Blood Donation.JPG";
-import SBA from "../images/files/Bharat Swachhta Abhiyan.jpg";
-import CCS from "../images/cleanssgi.jpg";
-import police from "../images/police.JPG";
-import BloodBITD from "../images/BlooddonationBITD.JPG";
-import BITR from "../images/upload/blood donation/BIT Raipur 1 (1).JPG";
+
 import preRD from "../images/preRD.JPG";
 import ChintanShivir from "../images/ChintanShivir.jpg"
 import PO_1Dayworkshop from "../images/PO_1Dayworkshop.jpg"
-import ConstitutionDay from "../images/National Constitution Day.jpg"
+import FitIndia from "../images/events/fitIndiaFreedomRun.jpg"
 import SocialMediaWorkshop from "../images/SocialMediaWorkshop.jpg"
 import NIC from "../images/events/NIC2021.png";
-
+import NYFCG from "../images/events/NYFCG.jpg";
+import advCamp from "../images/events/advCamp.jpg";
+import MegaClean from "../images/events/MegaCleanliness.jpg";
+import UnivRD from "../images/events/UnivRD.jpg";
+import advisory from "../images/advisoryMeet.jpg";
 
 import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper";
 
@@ -42,6 +41,241 @@ const Feed = () => {
             slidesPerView={isMobile ? 1 : isTablet ? 2 : 3}
           >
             <div class="flex flex-wrap justify-center align-middle">
+            <SwiperSlide>
+                <div class="p-0">
+                  <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                    <img
+                        class="lg:h-48 md:h-36 w-full object-cover object-center"
+                        src={NYFCG}
+                        alt="blog"
+                    />
+                    <div class="p-6">
+                      <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                        CATEGORY
+                      </h2>
+                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                        National Youth Festival 2023
+                      </h1>
+                      <p class="leading-relaxed mb-3">
+                      The volunteers of National Service Scheme cell of Chhatisgarh Swami Vivekananda Technical University, Bhilai represented Chhattisgarh State at the National Youth Festival organized in Hubli, Dharwad, Karnataka from 12 to 16 January 2023 by the Government of India, Youth Program. In this youth festival, participants from different states and union territories of the country got an opportunity to learn about their culture etc.
+                      </p>
+                      <div class="flex items-center flex-wrap ">
+                        <a href="/regularevent" class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                          Learn More
+                          <svg
+                              class="w-4 h-4 ml-2"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              fill="none"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                          >
+                            <path d="M5 12h14"></path>
+                            <path d="M12 5l7 7-7 7"></path>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div class="p-0">
+                  <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                    <img
+                        class="lg:h-48 md:h-36 w-full object-cover object-center"
+                        src={advCamp}
+                        alt="blog"
+                    />
+                    <div class="p-6">
+                      <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                        CATEGORY
+                      </h2>
+                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                         Adventure Camp 2022
+                      </h1>
+                      <p class="leading-relaxed mb-3">
+                      3rd Batch for the National Adventure Camp organised by Atal Bihari Vajpayee Institute of Mountaineering and Allied Sports, Dharamshala, H.P has been departed from Chhattisgarh. The arrangement was Managed by Chhattisgarh Swami Vivekanand Technical University,Bhilai. All the best to the selected Volunteers.
+                      </p>
+                      <div class="flex items-center flex-wrap ">
+                        <a href="/regularevent" class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                          Learn More
+                          <svg
+                              class="w-4 h-4 ml-2"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              fill="none"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                          >
+                            <path d="M5 12h14"></path>
+                            <path d="M12 5l7 7-7 7"></path>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide><SwiperSlide>
+                <div class="p-0">
+                  <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                    <img
+                        class="lg:h-48 md:h-36 w-full object-cover object-center"
+                        src={MegaClean}
+                        alt="blog"
+                    />
+                    <div class="p-6">
+                      <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                        CATEGORY
+                      </h2>
+                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                        Mega Cleanliness Drive 2022
+                      </h1>
+                      <p class="leading-relaxed mb-3">
+                      On 19th October 2022, National Service Scheme Cell of Chhattisgarh Swami Vivekananda Technical University, Bhilai (C.G.) organized a university level mega cleanliness drive at Gudicha Manch Sector 10, Bhilai under Clean India Campaign. They run around 1.5km under Fit India Run 3.O and collected the plastic material. Spread awareness in the society.
+                      </p>
+                      <div class="flex items-center flex-wrap ">
+                        <a href="/regularevent" class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                          Learn More
+                          <svg
+                              class="w-4 h-4 ml-2"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              fill="none"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                          >
+                            <path d="M5 12h14"></path>
+                            <path d="M12 5l7 7-7 7"></path>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide><SwiperSlide>
+                <div class="p-0">
+                  <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                    <img
+                        class="lg:h-48 md:h-36 w-full object-cover object-center"
+                        src={FitIndia}
+                        alt="blog"
+                    />
+                    <div class="p-6">
+                      <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                        CATEGORY
+                      </h2>
+                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                        Fit India Freedom Run 2022
+                      </h1>
+                      <p class="leading-relaxed mb-3">
+                      On 3rd October NSS Unit of Shankracharya Technical Campus Junwani Bhilai Chhattisgarh organized Fit India Freedom Run 3.0 at Jayanti Stadium Bhilai were NSS Volunteers Participated in Run. Some glimpses.
+                      </p>
+                      <div class="flex items-center flex-wrap ">
+                        <a href="/regularevent" class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                          Learn More
+                          <svg
+                              class="w-4 h-4 ml-2"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              fill="none"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                          >
+                            <path d="M5 12h14"></path>
+                            <path d="M12 5l7 7-7 7"></path>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div class="p-0">
+                  <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                    <img
+                        class="lg:h-48 md:h-36 w-full object-cover object-center"
+                        src={UnivRD}
+                        alt="blog"
+                    />
+                    <div class="p-6">
+                      <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                        CATEGORY
+                      </h2>
+                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                       One Day Workshop & University-Level RD selection
+                      </h1>
+                      <p class="leading-relaxed mb-3">
+                      On this workshop, under National Service Scheme cell of CSVTU, training of Programme Ofiicers of affiliated units was organized at Vishwesharaiya Bhawan. Also on this occasion, the selection of volunteers for the Republic Day parade concluded where their parade skills and cultural capabilities were assessed, as well as distribution of B&C certificates. Program conducted by Ms. Kuzur.
+                      </p>
+                      <div class="flex items-center flex-wrap ">
+                        <a href="/regularevent" class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                          Learn More
+                          <svg
+                              class="w-4 h-4 ml-2"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              fill="none"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                          >
+                            <path d="M5 12h14"></path>
+                            <path d="M12 5l7 7-7 7"></path>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div class="p-0">
+                  <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                    <img
+                        class="lg:h-48 md:h-36 w-full object-cover object-center"
+                        src={advisory}
+                        alt="blog"
+                    />
+                    <div class="p-6">
+                      <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                        CATEGORY
+                      </h2>
+                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                       NSS Advisory Board Meeting
+                      </h1>
+                      <p class="leading-relaxed mb-3">
+                      A meeting held at CSVTU, in presence of 
+Dr. M. K. Verma sir (vice Chancellor CSVTU)
+Shri D. N. Sirsant sir ( Registrar CSVTU)
+Dr. D. N. Garhwal sir( Regional director, Bhopal)
+Dr. Samrendra singh sir, Dr. S. R. Thakur Sir, Dr. P. B. Deshmukh sir, Dr. D. S. Raghuwanshi sir and other respected guests from different colleges </p>
+                      <div class="flex items-center flex-wrap ">
+                        <a href="/regularevent" class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                          Learn More
+                          <svg
+                              class="w-4 h-4 ml-2"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              fill="none"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                          >
+                            <path d="M5 12h14"></path>
+                            <path d="M12 5l7 7-7 7"></path>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
             <SwiperSlide>
                 <div class="p-0">
                   <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
@@ -122,45 +356,7 @@ By presenting Dance, Singing, Drama, and Mimickry, the Volunteers made full use 
                   </div>
                 </div>
               </SwiperSlide>
-              <SwiperSlide>
-                <div class="p-0">
-                  <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                    <img
-                        class="lg:h-48 md:h-36 w-full object-cover object-center"
-                        src={ConstitutionDay}
-                        alt="blog"
-                    />
-                    <div class="p-6">
-                      <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
-                        CATEGORY
-                      </h2>
-                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-                        National Constitution Day
-                      </h1>
-                      <p class="leading-relaxed mb-3">
-                        National Service Scheme, CSVTU,  Bhilai affiliated units celebrated National Constitution Day on 26 November 2021.
-                      </p>
-                      <div class="flex items-center flex-wrap ">
-                        <a href="/regularevent" class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
-                          Learn More
-                          <svg
-                              class="w-4 h-4 ml-2"
-                              viewBox="0 0 24 24"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              fill="none"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                          >
-                            <path d="M5 12h14"></path>
-                            <path d="M12 5l7 7-7 7"></path>
-                          </svg>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
+             
               <SwiperSlide>
                 <div class="p-0">
                   <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
@@ -251,7 +447,7 @@ By presenting Dance, Singing, Drama, and Mimickry, the Volunteers made full use 
                         CATEGORY
                       </h2>
                       <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-                        Pre-RDC Selection
+                        Pre-RDC Selection 2021
                       </h1>
                       <p class="leading-relaxed mb-3">
                         Pre-RDC (Republic Day Camp) selection will be held at
@@ -284,222 +480,7 @@ By presenting Dance, Singing, Drama, and Mimickry, the Volunteers made full use 
                   </div>
                 </div>
               </SwiperSlide>
-              <SwiperSlide>
-                <div class="p-0 w-11/12 mx-auto">
-                  <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                    <img
-                      class="lg:h-48 md:h-36 w-full object-cover object-center"
-                      src={police}
-                      alt="blog"
-                    />
-                    <div class="p-6">
-                      <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
-                        CATEGORY
-                      </h2>
-                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-                        Volunteering With Durg Police
-                      </h1>
-                      <p class="leading-relaxed mb-3">
-                        On the occasion of Navratri and Dussehra to maintain the
-                        traffic and law and order situation in Durg-Bhilai and
-                        to make the NSS volunteers aware about traffic and law,
-                        the volunteers of National Service Scheme of Shri
-                        Shankaracharya Technical Campus volunteered to instill
-                        awareness and to assist Durg Police.
-                      </p>
-                      <div class="flex items-center flex-wrap ">
-                        <a href="/regularevent" class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
-                          Learn More
-                          <svg
-                            class="w-4 h-4 ml-2"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            fill="none"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          >
-                            <path d="M5 12h14"></path>
-                            <path d="M12 5l7 7-7 7"></path>
-                          </svg>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div class="p-0 w-11/12 mx-auto">
-                  <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                    <img
-                      class="lg:h-48 md:h-36 w-full object-cover object-center"
-                      src={SBA}
-                      alt="blog"
-                    />
-                    <div class="p-6">
-                      <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
-                        CATEGORY
-                      </h2>
-                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-                        Bharat Swachhta Abhiyan
-                      </h1>
-                      <p class="leading-relaxed mb-3">
-                        On the occasion of the 150th Birth Anniversary Year of
-                        Mahatma Gandhi, a cleanliness drive was Organized by the
-                        National Service Scheme Cell under Swachh Bharat
-                        Abhiyan. Volunteers cleaned the pond in the nearby
-                        village and expressed the need to have a Healthy and
-                        hygienic society.
-                      </p>
-                      <div class="flex items-center flex-wrap">
-                        <a href="/regularevent" class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
-                          Learn More
-                          <svg
-                            class="w-4 h-4 ml-2"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            fill="none"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          >
-                            <path d="M5 12h14"></path>
-                            <path d="M12 5l7 7-7 7"></path>
-                          </svg>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div class="p-0  w-11/12 mx-auto">
-                  <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                    <img
-                      class="lg:h-48 md:h-36 w-full object-cover object-center"
-                      src={CCS}
-                      alt="blog"
-                    />
-                    <div class="p-6">
-                      <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
-                        CATEGORY
-                      </h2>
-                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-                        Clean India Campaign
-                      </h1>
-                      <p class="leading-relaxed mb-3">
-                        Under the ongoing Clean India Campaign throughout the
-                        whole nation, Volunteers of Shri Shankaracharya Group of
-                        Institutions also participated, they cleaned the college
-                        campus and through this generated awareness among the
-                        public to keep India clean. .
-                      </p>
-                      <div class="flex items-center flex-wrap ">
-                        <a href="/regularevent" class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
-                          Learn More
-                          <svg
-                            class="w-4 h-4 ml-2"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            fill="none"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          >
-                            <path d="M5 12h14"></path>
-                            <path d="M12 5l7 7-7 7"></path>
-                          </svg>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div class="p-0  w-11/12 mx-auto">
-                  <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                    <img
-                      class="lg:h-48 md:h-36 w-full object-cover object-center"
-                      src={BloodBITD}
-                      alt="blog"
-                    />
-                    <div class="p-6">
-                      <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
-                        CATEGORY
-                      </h2>
-                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-                        Blood Donation Campaign
-                      </h1>
-                      <p class="leading-relaxed mb-3">
-                        On the occasion of "Voluntary Blood Donation Day" the
-                        volunteers of NSS BITD took an oath to contribute to the
-                        nobel cause of blood donation themselves and motivate
-                        others to do it too. "Donating Blood is synonymous to
-                        Saving a life"
-                      </p>
-                      <div class="flex items-center flex-wrap ">
-                        <a href="/regularevent" class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
-                          Learn More
-                          <svg
-                            class="w-4 h-4 ml-2"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            fill="none"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          >
-                            <path d="M5 12h14"></path>
-                            <path d="M12 5l7 7-7 7"></path>
-                          </svg>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div class="p-0  w-11/12 mx-auto">
-                  <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                    <img
-                      class="lg:h-48 md:h-36 w-full object-cover object-center"
-                      src={BITR}
-                      alt="blog"
-                    />
-                    <div class="p-6">
-                      <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
-                        CATEGORY
-                      </h2>
-                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-                        Blood Donation Campaign
-                      </h1>
-                      <p class="leading-relaxed mb-3">
-                        On the occasion of "Voluntary Blood Donation Day" the
-                        volunteers of NSS BIT Raipur contributed in the nobel
-                        cause of blood donation themselves and motivated others
-                        to do it too.
-                      </p>
-                      <div class="flex items-center flex-wrap ">
-                        <a href="/regularevent" class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
-                          Learn More
-                          <svg
-                            class="w-4 h-4 ml-2"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            fill="none"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          >
-                            <path d="M5 12h14"></path>
-                            <path d="M12 5l7 7-7 7"></path>
-                          </svg>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
+             
             </div>
           </Swiper>
         </div>

@@ -1,8 +1,8 @@
 import React from "react";
-import ASK from "../images/abc/4.png";
+import ASK from "../images/abc/7.jpg";
 import PC from "../images/abc/3.png";
 import MKV from "../images/abc/2.png";
-import SS from "../images/abc/1.png";
+import NB from "../images/abc/11.png";
 import KK from "../images/abc/5.png";
 import logo from "../images/nss.png";
 
@@ -48,7 +48,7 @@ function Team() {
         </div>
 
         <div className="bg-white p-5 rounded border-2 border-black col-start-2 col-end-2 row-start-2 row-end-2 flex gap-10 justify-center">
-          <img className="" src={SS} alt="" />
+          <img className="" src={NB} alt="" />
           {/* <div className="grid grid-col-1 m-1 ">
             <a href="#">
               <i className="fab fa-facebook"></i>

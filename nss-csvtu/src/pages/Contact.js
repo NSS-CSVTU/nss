@@ -1,6 +1,46 @@
-import React from "react";
+import React, { useState } from "react";
+import emailjs from 'emailjs-com';
+
 
 const Contact = () => {
+  
+  const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
+    const [emailSent, setEmailSent] = useState(false);
+
+  //   const isValidEmail = email => {
+  //     const regex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  //     return regex.test(String(email).toLowerCase());
+  // };
+ 
+    const submit = () => {
+      if (name && email && message ) {
+         // send mail
+         const serviceId = `${process.env.REACT_APP_SERVICE_ID}`;
+         const templateId = `${process.env.REACT_APP_TEMPLATE_ID}`;
+         const userId = `${process.env.REACT_APP_USER_ID}`;
+         const templateParams = {
+             name,
+             email,
+             message
+         };
+
+         emailjs.send(serviceId, templateId, templateParams, userId)
+             .then(response => console.log(response))
+             .then(error => console.log(error));
+
+          setName('');
+          setEmail('');
+          setMessage('');
+          setEmailSent(true);
+          console.log(emailSent)
+
+      } else {
+          alert('Please fill in all fields.');
+      }
+  }
+  // console.log(emailSent);
   return (
     <div className="">
       <section className="text-gray-600 body-font relative">
@@ -51,6 +91,7 @@ const Contact = () => {
             <p className="leading-relaxed mb-5 text-gray-600">
               Please fill in the form below to contact us to through mail:
             </p>
+           
             <div className="relative mb-4">
               <label for="name" className="leading-7 text-sm text-gray-600">
                 Name
@@ -60,6 +101,7 @@ const Contact = () => {
                 type="text"
                 id="name"
                 name="name"
+                placeholder="Your Name" value={name} onChange={e => setName(e.target.value)}
                 className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base  text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               />
 
@@ -72,6 +114,7 @@ const Contact = () => {
                 type="email"
                 id="email"
                 name="email"
+                placeholder="Your email address" value={email} onChange={e => setEmail(e.target.value)}
                 className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               />
             </div>
@@ -82,12 +125,15 @@ const Contact = () => {
               <textarea
                 id="message"
                 name="message"
+                placeholder="Your message" value={message} onChange={e => setMessage(e.target.value)}
                 className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
               ></textarea>
             </div>
-            <button className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+            <button onClick={submit} className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
               Submit
             </button>
+            {/* <span className={emailSent ? 'visible' : null}>Thank you for your message, we will be in touch in no time!</span> */}
+            
             <p className="text-xs text-gray-500 mt-3">
               CHHATTISGARH SWAMI VIVEKANAND TECHNICAL UNIVERSITY.
             </p>
